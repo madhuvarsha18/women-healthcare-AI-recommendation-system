@@ -1,0 +1,35 @@
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.home-content {
+  max-width: 900px;
+}
+
+.home-title {
+  font-size: 70px;
+  font-weight: bold;
+  color: #ec4899;
+  margin-bottom: 30px;
+}
+.home-description {
+  color: #d166a3;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.home-button {
+  background: linear-gradient(to right, #ec4899, #8b5cf6);
+  color: rgb(226, 204, 204);
+  border: none;
+  padding: 18px 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}

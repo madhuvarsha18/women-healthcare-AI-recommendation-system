@@ -1,0 +1,174 @@
+.rec-card {
+  background: var(--warm-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--warm-gray-light);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rec-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.rec-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.rec-emoji {
+  font-size: 26px;
+  width: 48px;
+  height: 48px;
+  background: var(--ivory);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.rec-title-area {
+  flex: 1;
+}
+
+.rec-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--text-dark);
+  line-height: 1.2;
+}
+
+.rec-subtitle {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.rec-duration {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--rose);
+  background: var(--rose-light);
+  padding: 4px 10px;
+  border-radius: 50px;
+  flex-shrink: 0;
+}
+
+.rec-benefit {
+  font-size: 13.5px;
+  color: var(--text-mid);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.rec-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.rec-expand-btn {
+  background: none;
+  border: 1px solid var(--warm-gray-light);
+  border-radius: var(--radius-md);
+  padding: 8px 16px;
+  font-size: 13px;
+  color: var(--text-mid);
+  width: 100%;
+  text-align: center;
+  transition: all 0.18s ease;
+  margin-top: 4px;
+}
+
+.rec-expand-btn:hover {
+  background: var(--rose-light);
+  border-color: var(--rose-muted);
+  color: var(--rose-dark);
+}
+
+.rec-steps {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  animation: fadeIn 0.25s ease;
+}
+
+.rec-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--text-mid);
+}
+
+.step-num {
+  width: 22px;
+  height: 22px;
+  background: var(--rose);
+  color: white;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Reflexology specific */
+.reflex-technique {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background: var(--ivory);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--text-mid);
+}
+
+.technique-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+/* Diet specific */
+.diet-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.diet-items li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: var(--text-mid);
+}
+
+.diet-dot {
+  color: var(--rose);
+  font-size: 18px;
+}
+
+.diet-benefit {
+  background: var(--sage-light);
+  color: var(--sage-dark);
+  font-size: 12.5px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
