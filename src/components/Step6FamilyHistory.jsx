@@ -1,8 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 function Step6FamilyHistory({
   formData,
   setFormData,
   nextStep,
 }) {
+
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData({
@@ -12,144 +16,226 @@ function Step6FamilyHistory({
   };
 
   return (
-    <div>
+    <>
+      <style>{`
+        *{
+          box-sizing:border-box;
+          font-family:'Poppins',sans-serif;
+        }
 
-      <h2>
-        Step 6 - Family History & Risk Factors
-      </h2>
+        .step-container{
+          max-width:480px;
+          margin:50px auto;
+          padding:35px;
+          border-radius:25px;
+          background:linear-gradient(145deg,#ffe4ef,#ffd3e6);
+          box-shadow:0 15px 35px rgba(255,105,180,.25);
+          animation:fadeIn .8s ease;
+        }
 
-      <label>
-        Family History of PCOS
-      </label>
+        @keyframes fadeIn{
+          from{
+            opacity:0;
+            transform:translateY(30px) scale(.95);
+          }
+          to{
+            opacity:1;
+            transform:translateY(0) scale(1);
+          }
+        }
 
-      <select
-        name="family_history_pcos"
-        onChange={handleChange}
-      >
-        <option value="">
-          Select
-        </option>
-        <option value="Yes">
-          Yes
-        </option>
-        <option value="No">
-          No
-        </option>
-      </select>
+        .step-title{
+          text-align:center;
+          color:#d63384;
+          margin-bottom:30px;
+          font-size:28px;
+          font-weight:700;
+        }
 
-      <br /><br />
+        .input-group{
+          margin-bottom:20px;
+        }
 
-      <label>
-        Family History of Endometriosis
-      </label>
+        .input-group label{
+          display:block;
+          margin-bottom:8px;
+          color:#c2185b;
+          font-weight:600;
+        }
 
-      <select
-        name="family_history_endometriosis"
-        onChange={handleChange}
-      >
-        <option value="">
-          Select
-        </option>
-        <option value="Yes">
-          Yes
-        </option>
-        <option value="No">
-          No
-        </option>
-      </select>
+        .select-field{
+          width:100%;
+          padding:15px;
+          border:none;
+          border-radius:14px;
+          outline:none;
+          background:#fff;
+          font-size:16px;
+          transition:.3s;
+          box-shadow:0 6px 15px rgba(255,105,180,.15);
+        }
 
-      <br /><br />
+        .select-field:focus{
+          border:2px solid #ff4fa3;
+          transform:translateY(-2px);
+          box-shadow:0 10px 25px rgba(214,51,132,.35);
+        }
 
-      <label>
-        Family History of Fibroids
-      </label>
+        .button-group{
+          display:flex;
+          gap:12px;
+          margin-top:30px;
+        }
 
-      <select
-        name="family_history_fibroids"
-        onChange={handleChange}
-      >
-        <option value="">
-          Select
-        </option>
-        <option value="Yes">
-          Yes
-        </option>
-        <option value="No">
-          No
-        </option>
-      </select>
+        .back-btn,
+        .next-btn{
+          flex:1;
+          padding:15px;
+          border:none;
+          border-radius:14px;
+          cursor:pointer;
+          font-size:16px;
+          font-weight:600;
+          transition:.3s;
+        }
 
-      <br /><br />
+        .back-btn{
+          background:#fff;
+          color:#d63384;
+          box-shadow:0 8px 20px rgba(255,105,180,.2);
+        }
 
-      <label>
-        Thyroid Status
-      </label>
+        .back-btn:hover{
+          background:#ffe4ef;
+          transform:translateY(-3px);
+        }
 
-      <select
-        name="thyroid_status"
-        onChange={handleChange}
-      >
-        <option value="">
-          Select
-        </option>
+        .next-btn{
+          color:#fff;
+          background:linear-gradient(90deg,#ff4fa3,#ff78b8);
+          box-shadow:0 8px 20px rgba(255,79,163,.35);
+        }
 
-        <option value="Normal">
-          Normal
-        </option>
+        .next-btn:hover{
+          transform:translateY(-3px);
+          box-shadow:0 12px 28px rgba(255,79,163,.45);
+        }
 
-        <option value="Hypothyroid">
-          Hypothyroid
-        </option>
+        .back-btn:active,
+        .next-btn:active{
+          transform:scale(.97);
+        }
 
-        <option value="Hyperthyroid">
-          Hyperthyroid
-        </option>
+        @media(max-width:500px){
+          .step-container{
+            margin:20px;
+            padding:25px;
+          }
 
-      </select>
+          .button-group{
+            flex-direction:column;
+          }
+        }
+      `}</style>
 
-      <br /><br />
+      <div className="step-container">
 
-      <label>
-        Weight Change Last 6 Months
-      </label>
+        <h2 className="step-title">
+          👨‍👩‍👧‍👦 Step 6 - Family History & Risk Factors
+        </h2>
 
-      <select
-        name="weight_change_last_6_months"
-        onChange={handleChange}
-      >
-        <option value="">
-          Select
-        </option>
+        <div className="input-group">
+          <label>🩺 Family History of PCOS</label>
+          <select
+            className="select-field"
+            name="family_history_pcos"
+            value={formData.family_history_pcos || ""}
+            onChange={handleChange}
+          >
+            <option value="">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
 
-        <option value="No Change">
-          No Change
-        </option>
+        <div className="input-group">
+          <label>🌸 Family History of Endometriosis</label>
+          <select
+            className="select-field"
+            name="family_history_endometriosis"
+            value={formData.family_history_endometriosis || ""}
+            onChange={handleChange}
+          >
+            <option value="">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
 
-        <option value="Gained 1-3kg">
-          Gained 1-3kg
-        </option>
+        <div className="input-group">
+          <label>💗 Family History of Fibroids</label>
+          <select
+            className="select-field"
+            name="family_history_fibroids"
+            value={formData.family_history_fibroids || ""}
+            onChange={handleChange}
+          >
+            <option value="">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
 
-        <option value="Lost 1-3kg">
-          Lost 1-3kg
-        </option>
+        <div className="input-group">
+          <label>🦋 Thyroid Status</label>
+          <select
+            className="select-field"
+            name="thyroid_status"
+            value={formData.thyroid_status || ""}
+            onChange={handleChange}
+          >
+            <option value="">Select</option>
+            <option value="Normal">Normal</option>
+            <option value="Hypothyroid">Hypothyroid</option>
+            <option value="Hyperthyroid">Hyperthyroid</option>
+          </select>
+        </div>
 
-        <option value="Gained 4kg+">
-          Gained 4kg+
-        </option>
+        <div className="input-group">
+          <label>⚖️ Weight Change (Last 6 Months)</label>
+          <select
+            className="select-field"
+            name="weight_change_last_6_months"
+            value={formData.weight_change_last_6_months || ""}
+            onChange={handleChange}
+          >
+            <option value="">Select</option>
+            <option value="No Change">No Change</option>
+            <option value="Gained 1-3kg">Gained 1–3 kg</option>
+            <option value="Lost 1-3kg">Lost 1–3 kg</option>
+            <option value="Gained 4kg+">Gained 4+ kg</option>
+            <option value="Lost 4kg+">Lost 4+ kg</option>
+          </select>
+        </div>
 
-        <option value="Lost 4kg+">
-          Lost 4kg+
-        </option>
+        <div className="button-group">
+          <button
+            className="back-btn"
+            onClick={() => navigate("/step5")}
+          >
+            ← Back
+          </button>
 
-      </select>
+          <button
+            className="next-btn"
+            onClick={nextStep}
+          >
+            Next →
+          </button>
+        </div>
 
-      <br /><br />
-
-      <button onClick={nextStep}>
-        Next
-      </button>
-
-    </div>
+      </div>
+    </>
   );
 }
 

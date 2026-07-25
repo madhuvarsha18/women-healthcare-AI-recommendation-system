@@ -59,14 +59,7 @@ function Assessment() {
         padding: "40px",
       }}
     >
-      <h1
-  style={{
-    color: "red",
-    fontSize: "60px"
-  }}
->
-  NEW ASSESSMENT PAGE
-</h1>
+      
 
       {step === 1 && (
         <Step1Personal

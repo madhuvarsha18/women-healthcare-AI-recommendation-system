@@ -107,7 +107,49 @@
 
 .chip-bad{
     background:#fee2e2;
-    color:#991b1b;
+    co.prediction-area{
+    margin-top:40px;
+    animation:reportFade .8s ease;
+}
+
+
+@keyframes reportFade{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+
+.review-page{
+    animation:pageLoad .6s ease;
+}
+
+
+@keyframes pageLoad{
+
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+
+}
+
+
+.review-btn{
+    display:block;
+    margin:35px auto;
+}lor:#991b1b;
     padding:8px 14px;
     border-radius:25px;
     font-weight:600;
