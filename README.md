@@ -71,10 +71,8 @@ Health Analytics
 
 Every assessment is stored in MongoDB in **Azure free tier cloud**, enabling users to monitor changes in their health over multiple assessments.
 
-**🧠 Machine Learning Model**
-
+**🧠 Machine Learning Model:**
 The prediction engine is developed using Scikit-learn.
 
-Algorithm Used
-
+**Algorithm Used:**
 Random Forest Classifier
