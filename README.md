@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+**🌸 HerCare – AI Powered Women's Wellness Platform**
+📌 Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HerCare is an AI-powered women's wellness platform developed to help women monitor their reproductive health, identify possible health conditions at an early stage, and receive personalized wellness recommendations.
 
-## Available Scripts
+The application combines a modern web interface with machine learning to analyze health-related information such as menstrual cycle details, lifestyle habits, stress levels, sleep, exercise, and other symptoms. Based on these inputs, the system predicts possible health conditions and provides natural wellness guidance including food recommendations, mudras, and reflexology suggestions.
 
-In the project directory, you can run:
+The platform also stores every assessment securely, allowing users to track their health progress over time through an interactive dashboard.
 
-### `npm start`
+**🎯 Objectives**
+Provide an AI-assisted women's health assessment.
+Predict possible reproductive health conditions.
+Recommend natural wellness practices.
+Maintain a history of health assessments.
+Visualize health improvements through dashboards.
+Encourage preventive healthcare rather than reactive treatment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**✨ Features**
+👤 User Authentication
+User Registration
+Secure Login
+JWT Authentication
+Password Encryption using bcrypt
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**🩺 AI Health Assessment**
+**Users provide health-related information such as:**
 
-### `npm test`
+Age
+Height & Weight
+Menstrual Cycle Details
+Sleep Hours
+Water Intake
+Exercise Frequency
+Stress Level
+Anxiety Level
+Depression Level
+Lifestyle Information
+Family Medical History
+Thyroid Status
+Hormonal Symptoms
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**🤖 AI Prediction The trained machine learning model predicts:**
+Possible Health Condition
+Severity Level
+Risk Category
+Overall Wellness Score
+🌿 Personalized Wellness Recommendations
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**The system provides:
+Recommended Foods**
+Foods to Avoid
+Mudra Recommendation
+Mudra Duration
+Daily Frequency
+Reflexology Point
+Reflexology Duration
+Personalized Wellness Advice
+📊 Health Dashboard
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**The dashboard displays:**
+Latest Assessment
+Wellness Score
+BMI
+Health Snapshot
+Condition Summary
+Assessment History
+Wellness Trends
+Health Analytics
+💾 Data Storage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Every assessment is stored in MongoDB in **Azure free tier cloud**, enabling users to monitor changes in their health over multiple assessments.
 
-### `npm run eject`
+**🧠 Machine Learning Model:**
+The prediction engine is developed using Scikit-learn.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Algorithm Used:**
+Random Forest Classifier
