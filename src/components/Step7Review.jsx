@@ -1,16 +1,20 @@
 import { useState } from "react";
 import axios from "axios";
+import { getMudraImage, reflexologyImage } from "../data/recommendationImages";
+import FoodGallery from "./FoodGallery";
 import "./Step7Review.css";
 
-function Step7Review({ formData }) {
+function Step7Review({ formData, onEdit }) {
 
   const [prediction, setPrediction] = useState("");
   const [loading, setLoading] = useState(false);
+  const mudraImage = prediction ? getMudraImage(prediction.recommended_mudra) : null;
 
   const analyzeHealth = async () => {
 
     try {
 
+      setPrediction("");
       setLoading(true);
 
       const token = localStorage.getItem("token");
@@ -51,7 +55,7 @@ function Step7Review({ formData }) {
 
       {/* USER DATA REPORT */}
 
-      <div className="grid">
+      {!prediction && <div className="grid">
 
 
         <div className="card">
@@ -210,17 +214,18 @@ function Step7Review({ formData }) {
 
 
 
-      </div>
+      </div>}
 
 
 
 
-      <button
+      {!prediction && <button
         className="review-btn"
         onClick={analyzeHealth}
+        disabled={loading}
       >
         🔍 Analyze My Health
-      </button>
+      </button>}
 
 
 
@@ -239,6 +244,8 @@ function Step7Review({ formData }) {
       {
         prediction &&
 
+        <section id="recommendation-report" className="print-report">
+        <h2 className="print-report-title">Your Wellness Recommendations</h2>
         <div className="grid prediction-area">
 
 
@@ -313,8 +320,14 @@ function Step7Review({ formData }) {
             </h3>
 
 
-            <p className="info">
+            <img className="recommendation-photo" src={mudraImage.src} alt={`${prediction.recommended_mudra} hand gesture`} loading="lazy" />
+            <small className="image-credit">Image: <a href={mudraImage.source} target="_blank" rel="noreferrer">{mudraImage.credit}</a></small>
 
+            <p className="info">
+              A mudra is a hand gesture used during breathing or meditation. This photo shows the recommended hand position; rest your hands comfortably and do not force your fingers.
+            </p>
+
+            <p className="info">
               <b>Mudra</b>
               <br/>
 
@@ -360,8 +373,14 @@ function Step7Review({ formData }) {
             </h3>
 
 
-            <p>
+            <img className="recommendation-photo" src={reflexologyImage.src} alt="A practitioner gently pressing the sole of a foot" loading="lazy" />
+            <small className="image-credit">Image: <a href={reflexologyImage.source} target="_blank" rel="noreferrer">{reflexologyImage.credit}</a></small>
 
+            <p className="info">
+              Reflexology is a foot massage practice that uses gentle pressure on specific areas. Use light, comfortable pressure on the recommended area and stop if it hurts.
+            </p>
+
+            <p>
               <b>
                 Point
               </b>
@@ -400,24 +419,7 @@ function Step7Review({ formData }) {
             </h3>
 
 
-            <div className="chips">
-
-            {
-              prediction.recommended_foods
-              .split(",")
-              .map((food,index)=>(
-
-                <span
-                  key={index}
-                  className="chip-good"
-                >
-                  {food.trim()}
-                </span>
-
-              ))
-            }
-
-            </div>
+            <FoodGallery foods={prediction.recommended_foods} />
 
 
           </div>
@@ -433,26 +435,7 @@ function Step7Review({ formData }) {
             </h3>
 
 
-            <div className="chips">
-
-            {
-              prediction.foods_to_avoid
-              .split(",")
-              .map((food,index)=>(
-
-                <span
-                  key={index}
-                  className="chip-bad"
-                >
-
-                  {food.trim()}
-
-                </span>
-
-              ))
-            }
-
-            </div>
+            <FoodGallery foods={prediction.foods_to_avoid} avoid />
 
 
           </div>
@@ -483,7 +466,11 @@ function Step7Review({ formData }) {
 
 
         </div>
-
+        <div className="report-actions">
+          <button className="review-btn edit-report-btn" onClick={onEdit}>Edit assessment answers</button>
+          <button className="review-btn print-report-btn" onClick={() => window.print()}>Print recommendations</button>
+        </div>
+        </section>
       }
 
 

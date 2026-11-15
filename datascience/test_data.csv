@@ -1,0 +1,361 @@
+age,cycle_length_days,pain_level,sleep_hours,water_intake_liters,exercise_frequency_per_week,sedentary_hours,anxiety_level,depression_level,emotional_stability_score,cycle_regularity,bleeding_intensity,fatigue_level,acne_severity,hair_loss_severity,mood_pattern,stress_level,self_reported_stress,family_history_pcos,family_history_endometriosis,family_history_fibroids,thyroid_status,weight_change_last_6_months,actual_condition,predicted_condition,correct
+56,22,5,8.9,3.5,1,6.8,6,4,54,Irregular,Normal,Severe,Mild,Moderate,Stable,Medium,High,No,No,No,Hypothyroid,No Change,Uterine Prolapse,Uterine Prolapse,True
+28,65,5,6.4,1.1,5,3.0,4,5,60,Irregular,Light,Severe,Severe,Moderate,Frequent Swings,Low,Low,No,No,No,Normal,Gained 1-3kg,PCOS,PCOS,True
+42,30,5,8.6,1.9,4,3.4,3,4,69,Irregular,Spotting,Severe,No Acne,No Acne,Frequent Swings,Low,Medium,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Cervical Issues,False
+36,33,5,8.7,1.1,4,11.5,6,3,58,Regular,Spotting,Moderate,Mild,Mild,Mild Swings,Medium,High,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Ovarian Cysts,False
+33,30,8,5.1,1.2,2,8.3,9,8,23,Regular,Heavy,Moderate,No Acne,Mild,Mild Swings,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+34,0,6,4.7,2.2,4,9.9,9,4,39,Absent,Spotting,Mild,Moderate,Mild,Frequent Swings,High,High,No,No,No,Hypothyroid,Gained 5+kg,PCOS,Uterine Prolapse,False
+26,22,9,4.2,1.9,5,9.6,9,10,15,Irregular,Heavy,Moderate,Mild,No Acne,Frequent Swings,High,High,No,Yes,No,Normal,Lost 3-5kg,Endometriosis,Endometriosis,True
+40,40,4,4.8,2.9,6,11.5,7,6,41,Irregular,Heavy,Moderate,No Acne,Moderate,Severe Swings,High,High,Yes,No,No,Hypothyroid,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+53,0,6,5.8,2.5,0,7.0,9,6,31,Absent,Heavy,Moderate,Mild,Moderate,Mild Swings,High,High,No,No,No,Hypothyroid,Gained 1-3kg,Uterine Prolapse,Uterine Prolapse,True
+41,53,3,6.4,3.2,0,7.9,4,4,64,Irregular,Normal,Mild,Moderate,No Hair Loss,Severe Swings,Medium,Medium,No,No,No,Normal,Gained 1-3kg,PCOD,PCOD,True
+28,34,8,4.4,3.1,4,12.1,10,8,18,Regular,Spotting,Moderate,No Acne,No Acne,Mild Swings,High,High,No,Yes,No,Normal,No Change,Endometriosis,Endometriosis,True
+36,23,8,5.5,2.6,1,7.5,6,5,50,Regular,Heavy,Severe,Mild,Mild,Severe Swings,High,High,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Uterine Fibroids,False
+28,53,2,7.4,2.9,5,8.3,6,4,54,Irregular,Spotting,Mild,Mild,Mild,Mild Swings,Low,Medium,Yes,No,No,Hyperthyroid,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+31,30,6,8.3,2.3,6,8.7,7,2,57,Regular,Heavy,Severe,No Acne,No Acne,Mild Swings,Medium,Low,Yes,No,Yes,Normal,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+63,49,6,5.1,1.0,6,3.1,8,5,40,Irregular,Normal,Moderate,No Acne,Moderate,Frequent Swings,High,High,No,No,No,Normal,Gained 5+kg,Uterine Prolapse,Uterine Prolapse,True
+34,33,4,4.5,2.1,1,8.4,5,1,71,Irregular,Heavy,Moderate,No Acne,No Acne,Mild Swings,Low,High,No,No,No,Normal,Gained 5+kg,Uterine Fibroids,Uterine Fibroids,True
+33,0,1,7.8,1.8,5,3.0,5,6,51,Absent,Light,Mild,No Acne,Moderate,Severe Swings,Medium,Medium,No,No,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+29,0,5,5.4,3.4,0,7.4,7,4,49,Absent,Spotting,Moderate,Mild,Moderate,Stable,High,High,No,No,No,Hypothyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+34,36,4,6.1,1.1,4,3.8,3,2,77,Irregular,Heavy,Moderate,Mild,Mild,Frequent Swings,Medium,High,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+48,23,6,5.0,3.0,3,6.0,10,8,18,Irregular,Heavy,Moderate,Mild,Mild,Mild Swings,High,High,No,No,No,Normal,No Change,Adenomyosis,Adenomyosis,True
+27,38,8,5.8,2.4,5,12.5,6,4,54,Regular,Normal,Mild,No Acne,Mild,Stable,Medium,High,No,No,Yes,Normal,Gained 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+44,21,4,4.8,2.8,4,9.3,9,3,43,Regular,Normal,Moderate,Mild,No Acne,Frequent Swings,High,High,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+44,54,2,5.7,2.0,1,4.3,5,3,63,Irregular,Light,Severe,Mild,Moderate,Stable,High,High,No,No,No,Hyperthyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+69,35,4,5.7,1.5,3,5.3,3,3,73,Irregular,Normal,Severe,Mild,Moderate,Stable,Medium,High,No,No,No,Hypothyroid,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+48,26,5,6.2,1.5,5,12.7,6,1,66,Irregular,Heavy,Moderate,Mild,Mild,Stable,High,High,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+36,22,8,4.1,2.6,2,4.5,8,10,20,Regular,Heavy,Severe,No Acne,Mild,Mild Swings,Medium,High,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+38,30,3,4.5,2.7,5,2.0,2,1,86,Irregular,Normal,Severe,Moderate,No Hair Loss,Stable,Low,Low,Yes,No,No,Hypothyroid,Gained 5+kg,PCOD,PCOD,True
+44,29,6,7.9,1.5,5,3.2,7,7,37,Regular,Spotting,Mild,Mild,No Acne,Severe Swings,Medium,Medium,No,No,No,Normal,Lost 3-5kg,Endometriosis,Adenomyosis,False
+52,32,5,5.3,2.6,3,12.4,3,1,81,Irregular,Normal,Mild,No Acne,No Acne,Frequent Swings,Medium,Medium,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Cervical Issues,True
+32,0,4,6.2,2.0,1,13.5,5,4,59,Absent,Light,Mild,Mild,Moderate,Stable,Medium,High,No,No,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+44,22,10,4.1,2.0,0,4.4,9,6,31,Irregular,Heavy,Moderate,No Acne,No Acne,Mild Swings,High,High,No,Yes,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+52,47,6,5.7,1.8,6,8.2,3,3,73,Irregular,Spotting,Mild,No Acne,Mild,Stable,Medium,Medium,No,No,No,Normal,Gained 1-3kg,Uterine Prolapse,Uterine Prolapse,True
+47,58,5,5.6,3.3,1,9.7,7,6,41,Regular,Normal,Mild,Mild,Mild,Mild Swings,Medium,Medium,No,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+33,24,5,4.9,2.1,6,7.3,7,1,61,Irregular,Heavy,Mild,No Acne,Mild,Stable,High,High,No,No,Yes,Normal,No Change,Uterine Fibroids,Uterine Fibroids,True
+27,56,2,6.3,1.8,3,8.6,4,4,64,Irregular,Normal,Moderate,Mild,No Hair Loss,Frequent Swings,Low,Medium,No,No,No,Hypothyroid,Gained 3-5kg,PCOD,PCOD,True
+48,26,8,4.9,2.8,1,14.0,10,7,22,Irregular,Heavy,Mild,Mild,No Acne,Severe Swings,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+49,32,7,4.1,1.9,4,10.5,9,4,39,Regular,Heavy,Mild,Mild,Mild,Severe Swings,High,High,No,No,No,Hypothyroid,Gained 3-5kg,Uterine Fibroids,Uterine Prolapse,False
+50,25,4,5.7,1.9,3,11.9,3,2,77,Regular,Heavy,Moderate,No Acne,No Acne,Mild Swings,Medium,Medium,Yes,No,No,Normal,Gained 5+kg,Uterine Fibroids,Uterine Fibroids,True
+26,0,5,5.6,2.8,3,8.3,3,3,73,Absent,Light,Severe,Severe,Moderate,Severe Swings,Medium,Medium,Yes,No,Yes,Normal,Gained 3-5kg,PCOS,PCOS,True
+35,33,7,4.1,2.1,0,11.9,10,7,22,Regular,Heavy,Severe,Mild,Mild,Severe Swings,High,High,No,Yes,No,Normal,Lost 3-5kg,Endometriosis,Endometriosis,True
+44,32,4,4.8,2.6,6,4.5,6,3,58,Regular,Spotting,Mild,Mild,Mild,Severe Swings,High,High,No,No,No,Normal,No Change,Ovarian Cysts,Cervical Issues,False
+42,21,9,4.7,1.2,4,12.1,10,6,26,Irregular,Heavy,Moderate,No Acne,No Acne,Mild Swings,High,High,No,No,No,Normal,Lost 1-3kg,Endometriosis,Adenomyosis,False
+27,30,6,5.1,1.4,1,12.2,5,2,67,Regular,Normal,Severe,Mild,Mild,Frequent Swings,High,High,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Uterine Fibroids,False
+20,30,7,5.0,3.1,0,4.1,6,2,62,Regular,Normal,Severe,No Acne,Mild,Mild Swings,Low,Medium,No,No,No,Normal,No Change,Ovarian Cysts,Ovarian Cysts,True
+54,21,5,5.0,1.8,6,4.5,5,3,63,Irregular,Heavy,Moderate,No Acne,Moderate,Stable,Medium,High,No,No,No,Normal,Gained 1-3kg,Uterine Prolapse,Cervical Issues,False
+34,24,8,7.4,2.4,0,9.7,9,10,15,Irregular,Spotting,Severe,Mild,No Acne,Stable,Medium,High,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+33,24,7,4.5,2.6,4,10.3,5,4,59,Regular,Normal,Moderate,No Acne,Mild,Mild Swings,High,High,No,No,Yes,Normal,Gained 5+kg,Uterine Fibroids,Uterine Fibroids,True
+46,29,9,4.7,2.8,0,5.2,6,10,30,Regular,Spotting,Severe,No Acne,Mild,Stable,Medium,Low,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+49,26,5,5.7,3.1,6,6.0,7,1,61,Regular,Normal,Mild,Mild,Mild,Severe Swings,Low,Medium,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+35,58,5,4.9,1.4,0,14.0,5,4,59,Regular,Spotting,Severe,Mild,Moderate,Frequent Swings,Medium,High,No,No,No,Normal,Gained 1-3kg,Uterine Prolapse,Uterine Prolapse,True
+32,0,4,7.4,1.1,0,4.5,3,3,73,Absent,Light,Severe,Severe,Mild,Mild Swings,Medium,High,No,No,No,Normal,Gained 5+kg,PCOS,PCOS,True
+48,34,4,5.9,3.2,6,5.8,6,1,66,Regular,Normal,Severe,Mild,No Acne,Mild Swings,Medium,Medium,No,No,No,Normal,No Change,Cervical Issues,Cervical Issues,True
+42,31,2,6.4,2.8,5,12.2,4,2,72,Regular,Spotting,Severe,Mild,No Acne,Severe Swings,Low,Low,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Cervical Issues,True
+51,44,6,5.9,3.2,3,11.8,7,4,49,Irregular,Normal,Moderate,Mild,Mild,Frequent Swings,High,High,No,No,No,Normal,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+47,32,8,5.2,2.6,6,5.5,6,4,54,Irregular,Normal,Severe,Mild,No Acne,Mild Swings,High,High,No,No,Yes,Hypothyroid,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+22,33,9,5.1,1.8,5,6.5,8,9,24,Irregular,Heavy,Moderate,Mild,No Acne,Frequent Swings,High,High,No,Yes,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+40,0,6,6.2,1.2,5,8.2,7,3,53,Absent,Spotting,Mild,Mild,Moderate,Mild Swings,High,High,No,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+26,42,3,6.0,3.2,5,5.3,2,3,78,Irregular,Normal,Severe,Mild,No Hair Loss,Mild Swings,Low,Medium,No,No,No,Hypothyroid,Gained 3-5kg,PCOD,PCOD,True
+47,24,8,8.5,1.8,5,3.6,6,10,30,Irregular,Heavy,Moderate,Mild,Mild,Mild Swings,Medium,Medium,No,No,No,Normal,No Change,Adenomyosis,Adenomyosis,True
+31,66,5,6.8,3.0,0,5.0,5,4,59,Irregular,Spotting,Mild,Moderate,Mild,Severe Swings,Low,High,No,No,No,Normal,No Change,PCOS,Irregular Menstrual Disorder,False
+28,36,1,6.0,1.6,2,10.3,4,4,64,Irregular,Normal,Mild,Moderate,No Hair Loss,Frequent Swings,Low,Low,No,No,No,Normal,No Change,PCOD,PCOD,True
+37,33,8,7.7,1.1,3,8.6,7,2,57,Irregular,Normal,Severe,No Acne,No Acne,Stable,Medium,High,No,No,No,Hypothyroid,No Change,Uterine Fibroids,Uterine Fibroids,True
+15,30,4,8.2,2.4,4,7.8,1,1,91,Irregular,Normal,Moderate,Moderate,No Hair Loss,Frequent Swings,Low,Low,No,No,No,Normal,No Change,PCOD,PCOD,True
+36,41,5,4.6,2.3,0,13.5,3,3,73,Regular,Normal,Moderate,No Acne,Moderate,Stable,Medium,High,No,No,No,Normal,No Change,Uterine Prolapse,Ovarian Cysts,False
+60,0,7,6.4,1.3,2,5.7,6,7,42,Absent,Normal,Severe,Mild,Moderate,Severe Swings,Low,High,No,No,No,Hypothyroid,No Change,Uterine Prolapse,Uterine Prolapse,True
+37,29,7,6.2,2.7,6,12.1,10,7,22,Regular,Heavy,Moderate,Mild,Mild,Frequent Swings,High,High,No,Yes,No,Normal,Lost 3-5kg,Endometriosis,Endometriosis,True
+36,35,9,4.5,1.1,5,10.1,7,5,45,Irregular,Heavy,Moderate,No Acne,Mild,Frequent Swings,High,High,No,No,Yes,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+33,25,9,5.2,1.6,5,4.5,8,6,36,Regular,Heavy,Moderate,Mild,Mild,Severe Swings,Medium,Low,No,No,Yes,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+34,24,6,4.8,2.6,3,11.3,9,7,27,Irregular,Heavy,Moderate,No Acne,No Acne,Mild Swings,High,High,No,No,No,Normal,No Change,Endometriosis,Adenomyosis,False
+45,29,7,4.1,3.5,4,7.7,8,10,20,Regular,Spotting,Severe,No Acne,No Acne,Stable,High,High,No,No,No,Normal,No Change,Adenomyosis,Adenomyosis,True
+33,30,4,4.8,2.7,1,11.4,8,2,52,Regular,Normal,Mild,Mild,Mild,Frequent Swings,High,High,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Cervical Issues,True
+38,21,9,5.4,3.4,5,7.0,8,8,28,Regular,Heavy,Mild,No Acne,No Acne,Severe Swings,High,High,No,Yes,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+28,23,6,7.2,1.5,6,6.0,10,9,14,Irregular,Heavy,Severe,Mild,No Acne,Frequent Swings,Medium,Medium,No,Yes,No,Normal,No Change,Endometriosis,Endometriosis,True
+20,38,3,8.4,1.9,1,13.5,4,4,64,Irregular,Light,Severe,Mild,No Hair Loss,Frequent Swings,Medium,Low,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOD,PCOD,True
+38,49,4,4.0,2.1,2,5.6,4,2,72,Irregular,Normal,Moderate,Mild,No Hair Loss,Frequent Swings,Low,High,Yes,No,No,Normal,Gained 3-5kg,PCOD,PCOD,True
+44,29,6,8.1,1.6,4,7.7,7,2,57,Regular,Heavy,Severe,No Acne,No Acne,Mild Swings,Low,Medium,No,No,No,Normal,Gained 1-3kg,Uterine Fibroids,Ovarian Cysts,False
+16,0,2,7.4,2.8,2,4.1,7,5,45,Absent,Spotting,Severe,No Acne,Moderate,Stable,Medium,Low,No,No,No,Hypothyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+41,24,7,4.5,1.1,6,2.9,10,9,14,Irregular,Spotting,Severe,Mild,No Acne,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+21,31,4,4.6,1.0,5,4.5,8,3,48,Irregular,Normal,Severe,No Acne,Mild,Mild Swings,High,High,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+22,30,6,6.4,2.8,5,7.4,7,3,53,Regular,Normal,Moderate,Mild,Mild,Mild Swings,High,High,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Ovarian Cysts,False
+49,28,8,5.7,2.4,4,9.5,10,10,10,Irregular,Spotting,Severe,No Acne,No Acne,Stable,Medium,Medium,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+17,0,3,6.6,1.8,1,10.7,7,4,49,Absent,Spotting,Moderate,Severe,Moderate,Frequent Swings,Medium,Medium,Yes,No,No,Normal,Gained 3-5kg,PCOS,PCOS,True
+29,0,6,9.0,2.8,4,11.6,7,5,45,Absent,Spotting,Moderate,Severe,Mild,Frequent Swings,Medium,High,Yes,No,No,Normal,Gained 3-5kg,PCOS,PCOS,True
+44,44,4,7.4,2.5,5,5.1,6,6,46,Regular,Spotting,Mild,No Acne,Mild,Mild Swings,Medium,Medium,No,No,No,Normal,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+16,53,4,5.6,2.3,0,7.8,2,2,82,Irregular,Normal,Moderate,Moderate,No Hair Loss,Stable,Medium,High,No,No,No,Normal,Gained 3-5kg,PCOD,PCOD,True
+31,29,6,8.9,3.3,3,10.5,5,1,71,Regular,Normal,Moderate,Mild,Mild,Stable,Low,Medium,No,No,No,Hypothyroid,Gained 5+kg,Uterine Fibroids,Uterine Fibroids,True
+43,39,4,6.1,1.4,1,4.9,7,2,57,Irregular,Spotting,Moderate,No Acne,Mild,Mild Swings,High,High,No,Yes,Yes,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+39,41,7,6.0,1.1,5,11.5,5,4,59,Irregular,Spotting,Severe,Moderate,Mild,Severe Swings,Medium,High,No,Yes,No,Hypothyroid,Gained 1-3kg,PCOS,Uterine Prolapse,False
+42,0,4,4.7,1.2,2,10.2,6,6,46,Absent,Light,Severe,Mild,Mild,Severe Swings,High,High,No,No,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+33,82,5,5.3,2.8,0,4.8,6,3,58,Irregular,Spotting,Severe,Severe,Mild,Frequent Swings,High,High,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOS,PCOS,True
+44,26,5,8.3,1.5,1,11.9,3,1,81,Irregular,Heavy,Severe,Mild,Mild,Stable,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+35,22,8,4.5,3.4,2,5.7,8,10,20,Irregular,Heavy,Moderate,Mild,No Acne,Severe Swings,High,High,No,No,No,Normal,No Change,Endometriosis,Adenomyosis,False
+20,39,5,5.3,2.8,2,9.0,7,3,53,Irregular,Light,Mild,Severe,Mild,Severe Swings,High,High,Yes,No,No,Normal,Gained 5+kg,PCOS,PCOS,True
+50,28,6,7.3,3.4,3,7.3,5,5,55,Irregular,Heavy,Mild,No Acne,Moderate,Mild Swings,Medium,Medium,No,No,Yes,Hypothyroid,No Change,Uterine Prolapse,Uterine Fibroids,False
+33,25,8,5.7,1.3,5,9.2,9,7,27,Irregular,Heavy,Moderate,Mild,Mild,Mild Swings,High,High,Yes,No,No,Normal,Lost 1-3kg,Endometriosis,Adenomyosis,False
+42,50,3,7.0,2.1,3,12.4,3,4,69,Irregular,Normal,Severe,Moderate,No Hair Loss,Severe Swings,Low,Medium,No,No,No,Normal,Gained 5+kg,PCOD,PCOD,True
+22,43,2,8.5,1.2,0,12.4,4,6,56,Irregular,Spotting,Moderate,Severe,Moderate,Frequent Swings,Medium,Medium,Yes,No,No,Normal,Gained 5+kg,PCOS,PCOS,True
+45,29,6,6.3,1.6,1,11.4,5,2,67,Irregular,Spotting,Severe,Mild,Mild,Stable,Low,Medium,No,No,No,Normal,No Change,Cervical Issues,Cervical Issues,True
+15,44,3,7.1,1.5,2,4.4,1,4,79,Irregular,Light,Moderate,Mild,No Hair Loss,Severe Swings,Medium,High,No,No,No,Hypothyroid,Gained 5+kg,PCOD,PCOD,True
+48,27,9,5.5,3.1,4,10.8,9,7,27,Irregular,Spotting,Mild,Mild,No Acne,Stable,High,High,No,No,No,Normal,No Change,Adenomyosis,Adenomyosis,True
+18,34,7,8.6,3.0,5,10.8,5,3,63,Irregular,Spotting,Severe,No Acne,No Acne,Severe Swings,Low,Medium,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Ovarian Cysts,False
+42,32,6,4.7,1.6,5,7.1,9,1,51,Irregular,Spotting,Severe,No Acne,Mild,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Ovarian Cysts,False
+42,32,8,8.5,1.1,0,10.9,6,5,50,Regular,Normal,Moderate,No Acne,Mild,Stable,Medium,Low,No,No,No,Hypothyroid,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+40,42,5,7.7,2.0,5,2.0,4,4,64,Irregular,Normal,Moderate,Moderate,No Hair Loss,Frequent Swings,Low,Medium,Yes,No,No,Normal,No Change,PCOD,PCOD,True
+24,0,5,5.9,2.9,0,6.2,3,3,73,Absent,Spotting,Moderate,Severe,Moderate,Frequent Swings,Low,High,No,No,No,Normal,Gained 1-3kg,PCOS,PCOS,True
+49,23,9,6.0,2.0,6,3.5,10,9,14,Regular,Heavy,Severe,Mild,No Acne,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+34,0,5,4.1,1.0,4,7.0,4,5,60,Absent,Light,Moderate,Severe,Mild,Severe Swings,Low,Medium,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOS,PCOS,True
+39,33,7,4.4,3.5,4,3.3,5,5,55,Regular,Spotting,Moderate,Mild,Mild,Stable,Medium,High,Yes,Yes,Yes,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+44,59,5,8.4,1.0,4,6.7,5,6,51,Irregular,Normal,Severe,No Acne,Mild,Severe Swings,Medium,High,No,No,No,Normal,No Change,Uterine Prolapse,Irregular Menstrual Disorder,False
+38,34,4,7.3,3.0,4,4.2,2,4,74,Irregular,Light,Severe,Mild,No Hair Loss,Stable,Medium,Medium,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOD,PCOD,True
+42,32,7,8.1,2.8,4,6.2,7,7,37,Regular,Spotting,Moderate,Mild,No Acne,Mild Swings,Medium,High,No,No,No,Normal,Lost 3-5kg,Endometriosis,Endometriosis,True
+40,46,1,6.8,1.3,6,2.2,5,6,51,Irregular,Light,Mild,No Acne,Moderate,Frequent Swings,Low,Low,No,No,No,Hypothyroid,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+30,28,7,8.7,1.8,2,7.1,5,2,67,Irregular,Heavy,Moderate,No Acne,Mild,Mild Swings,Low,Low,No,No,No,Normal,Gained 5+kg,Uterine Fibroids,Uterine Fibroids,True
+29,31,6,4.7,3.0,5,8.7,5,3,63,Regular,Heavy,Severe,No Acne,No Acne,Severe Swings,Low,Low,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+30,24,5,5.5,1.1,1,12.0,5,1,71,Regular,Normal,Mild,No Acne,No Acne,Stable,Medium,High,No,No,No,Hypothyroid,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+33,0,4,4.1,2.2,6,3.5,8,3,48,Absent,Light,Moderate,Moderate,Moderate,Severe Swings,High,High,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOS,PCOS,True
+41,25,7,4.8,3.5,5,12.4,10,8,18,Regular,Spotting,Mild,No Acne,Mild,Frequent Swings,High,High,Yes,No,No,Normal,Lost 1-3kg,Endometriosis,Adenomyosis,False
+41,0,2,4.3,1.6,5,8.9,9,6,31,Absent,Light,Moderate,No Acne,Mild,Stable,High,High,Yes,No,No,Normal,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+43,28,7,4.4,3.4,5,6.3,9,10,15,Irregular,Spotting,Mild,Mild,No Acne,Mild Swings,High,High,No,No,No,Normal,Lost 1-3kg,Endometriosis,Adenomyosis,False
+43,84,7,6.4,2.7,1,8.4,4,4,64,Irregular,Spotting,Moderate,Severe,Mild,Frequent Swings,Medium,Medium,No,No,No,Hypothyroid,No Change,PCOS,PCOS,True
+37,28,9,5.5,3.0,4,6.2,6,10,30,Regular,Spotting,Moderate,No Acne,Mild,Frequent Swings,Medium,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+23,28,2,4.6,2.8,5,5.1,6,3,58,Irregular,Spotting,Moderate,Mild,Mild,Severe Swings,High,High,Yes,No,No,Normal,Gained 1-3kg,Cervical Issues,Cervical Issues,True
+32,21,7,6.0,1.5,1,7.7,8,7,32,Regular,Spotting,Moderate,Mild,Mild,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+49,32,9,5.4,2.5,4,4.8,4,4,64,Regular,Heavy,Moderate,Mild,Mild,Severe Swings,Medium,Low,No,No,Yes,Hypothyroid,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+19,0,1,4.5,3.2,0,3.8,5,4,59,Absent,Light,Severe,No Acne,Moderate,Stable,High,High,No,No,No,Normal,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+27,22,8,4.9,2.5,0,7.9,8,7,32,Regular,Heavy,Moderate,No Acne,No Acne,Frequent Swings,High,High,No,No,No,Normal,No Change,Endometriosis,Endometriosis,True
+38,25,7,5.4,2.6,3,6.5,7,3,53,Regular,Heavy,Mild,No Acne,No Acne,Severe Swings,High,High,No,Yes,No,Normal,No Change,Cervical Issues,Ovarian Cysts,False
+41,23,6,4.2,1.8,3,4.4,7,4,49,Regular,Heavy,Severe,No Acne,No Acne,Stable,High,High,No,No,Yes,Normal,No Change,Uterine Fibroids,Uterine Fibroids,True
+30,0,2,5.5,2.6,1,8.6,7,6,41,Absent,Spotting,Moderate,Mild,Moderate,Mild Swings,High,High,No,No,No,Hypothyroid,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+39,22,10,5.4,2.5,3,12.9,10,7,22,Regular,Spotting,Moderate,No Acne,No Acne,Severe Swings,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+41,40,2,8.3,1.3,3,10.5,4,3,68,Irregular,Normal,Moderate,Mild,No Hair Loss,Mild Swings,Low,Low,No,No,No,Normal,Gained 1-3kg,PCOD,PCOD,True
+23,0,2,6.8,1.9,5,11.0,4,6,56,Absent,Spotting,Mild,Moderate,Mild,Frequent Swings,Low,Medium,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOS,Irregular Menstrual Disorder,False
+28,53,1,8.4,2.9,3,13.2,1,2,87,Irregular,Light,Mild,Mild,No Hair Loss,Mild Swings,Low,Medium,No,No,No,Hypothyroid,No Change,PCOD,PCOD,True
+23,36,4,7.9,1.7,1,12.9,4,3,68,Irregular,Light,Moderate,Mild,No Hair Loss,Frequent Swings,Low,Low,Yes,No,No,Normal,Gained 5+kg,PCOD,PCOD,True
+22,39,2,4.3,1.0,0,9.0,1,3,83,Irregular,Normal,Severe,Mild,No Hair Loss,Severe Swings,Low,High,No,No,No,Hypothyroid,Gained 1-3kg,PCOD,PCOD,True
+36,53,2,8.1,2.9,4,3.7,4,4,64,Irregular,Light,Moderate,Mild,Mild,Mild Swings,Medium,High,No,No,No,Hypothyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+42,22,9,4.5,3.3,5,4.4,10,8,18,Irregular,Heavy,Severe,Mild,Mild,Frequent Swings,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+38,27,7,5.1,1.8,4,10.7,10,9,14,Irregular,Spotting,Mild,Mild,Mild,Severe Swings,High,High,No,No,No,Normal,No Change,Adenomyosis,Adenomyosis,True
+60,0,7,4.6,1.4,5,8.6,5,4,59,Absent,Spotting,Mild,Mild,Mild,Frequent Swings,High,High,No,No,Yes,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+30,0,7,7.1,1.5,4,6.0,7,4,49,Absent,Spotting,Severe,Severe,Mild,Severe Swings,Medium,Medium,No,No,No,Normal,Gained 1-3kg,PCOS,PCOS,True
+31,23,8,5.6,1.5,1,11.3,5,5,55,Irregular,Normal,Severe,Mild,Mild,Mild Swings,High,High,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+38,0,4,7.2,3.2,2,8.1,6,6,46,Absent,Light,Moderate,Mild,Mild,Severe Swings,Medium,High,No,No,No,Hypothyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+60,36,5,7.5,1.4,0,11.6,3,3,73,Regular,Spotting,Severe,Mild,Moderate,Frequent Swings,Low,High,Yes,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+14,76,4,5.7,3.4,5,4.0,7,6,41,Irregular,Light,Severe,No Acne,Mild,Frequent Swings,Medium,High,No,No,No,Hypothyroid,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+32,0,4,4.0,3.2,1,11.8,4,6,56,Absent,Spotting,Mild,Mild,Mild,Severe Swings,Medium,Low,No,No,No,Hypothyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+19,0,5,7.2,1.7,4,3.4,7,4,49,Absent,Light,Mild,No Acne,Mild,Mild Swings,Medium,Medium,No,No,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+42,65,1,7.4,3.4,5,5.3,4,5,60,Irregular,Spotting,Moderate,Mild,Mild,Mild Swings,Medium,Medium,No,No,No,Hypothyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+17,56,4,6.0,1.6,5,3.1,1,1,91,Irregular,Normal,Moderate,Mild,No Hair Loss,Stable,Low,Medium,No,No,No,Normal,Gained 5+kg,PCOD,PCOD,True
+42,48,4,4.6,3.1,5,8.7,2,2,82,Irregular,Light,Severe,Mild,No Hair Loss,Mild Swings,Low,High,Yes,No,Yes,Normal,Gained 1-3kg,PCOD,PCOD,True
+34,23,10,4.8,1.4,6,4.8,8,10,20,Irregular,Spotting,Mild,No Acne,Mild,Frequent Swings,High,High,Yes,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+34,27,6,5.3,3.0,2,4.7,4,4,64,Regular,Normal,Severe,No Acne,Mild,Mild Swings,Medium,Low,No,No,Yes,Normal,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+39,25,9,6.0,2.8,3,11.6,10,10,10,Regular,Heavy,Moderate,Mild,No Acne,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+44,22,7,4.5,3.0,1,6.3,8,7,32,Regular,Spotting,Moderate,No Acne,Mild,Frequent Swings,High,High,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+48,31,5,7.7,1.5,5,7.8,7,1,61,Regular,Heavy,Moderate,Mild,No Acne,Severe Swings,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+32,21,7,6.1,1.7,1,11.6,7,2,57,Regular,Normal,Moderate,No Acne,Mild,Mild Swings,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+51,29,5,4.5,1.9,3,7.1,6,5,50,Regular,Heavy,Moderate,No Acne,Moderate,Mild Swings,High,High,No,No,No,Normal,Gained 5+kg,Uterine Prolapse,Uterine Prolapse,True
+50,0,7,5.7,1.3,5,8.2,6,4,54,Absent,Spotting,Moderate,Mild,Mild,Frequent Swings,Medium,High,No,No,No,Hypothyroid,No Change,Uterine Prolapse,Uterine Prolapse,True
+39,28,5,5.8,2.9,1,9.3,5,3,63,Regular,Spotting,Moderate,Mild,Mild,Stable,High,High,No,No,No,Normal,No Change,Cervical Issues,Cervical Issues,True
+22,46,2,8.4,2.5,3,10.9,2,2,82,Irregular,Light,Moderate,Mild,No Hair Loss,Frequent Swings,Low,High,No,No,No,Hypothyroid,Gained 3-5kg,PCOD,PCOD,True
+34,22,7,4.6,3.0,4,9.5,9,9,19,Regular,Heavy,Moderate,Mild,No Acne,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+33,86,7,7.0,2.4,1,4.3,7,5,45,Irregular,Spotting,Mild,Severe,Moderate,Frequent Swings,Medium,High,No,No,No,Hypothyroid,No Change,PCOS,PCOS,True
+17,45,3,8.7,2.0,0,5.9,4,2,72,Irregular,Light,Moderate,Moderate,No Hair Loss,Mild Swings,Low,Low,Yes,No,No,Normal,No Change,PCOD,PCOD,True
+38,24,8,5.8,1.5,2,7.5,10,10,10,Regular,Heavy,Severe,Mild,Mild,Severe Swings,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+26,37,8,5.7,3.0,6,4.8,8,2,52,Irregular,Heavy,Moderate,Mild,No Acne,Frequent Swings,High,High,Yes,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+26,25,5,6.4,3.3,0,5.8,5,3,63,Regular,Normal,Mild,No Acne,Mild,Severe Swings,Low,Medium,No,No,No,Hypothyroid,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+28,30,5,5.1,2.9,1,6.4,4,3,68,Regular,Normal,Severe,No Acne,No Acne,Stable,Medium,Medium,No,No,Yes,Normal,Gained 1-3kg,Cervical Issues,Cervical Issues,True
+44,27,6,6.8,2.8,5,5.5,7,1,61,Regular,Heavy,Severe,Mild,No Acne,Mild Swings,Medium,Low,No,No,Yes,Normal,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+44,21,5,7.3,1.4,5,10.5,7,4,49,Irregular,Heavy,Mild,Mild,No Acne,Stable,Medium,Low,No,No,No,Hypothyroid,No Change,Uterine Fibroids,Uterine Fibroids,True
+36,29,8,6.7,3.4,0,7.7,7,2,57,Irregular,Heavy,Mild,Mild,Mild,Severe Swings,Medium,High,No,No,No,Normal,No Change,Uterine Fibroids,Ovarian Cysts,False
+38,55,2,7.9,3.3,0,12.3,3,3,73,Irregular,Light,Severe,Moderate,No Hair Loss,Frequent Swings,Medium,Medium,No,No,No,Normal,No Change,PCOD,PCOD,True
+28,70,3,6.6,3.4,2,3.7,7,3,53,Irregular,Spotting,Moderate,Severe,Moderate,Frequent Swings,Medium,High,Yes,No,No,Normal,Gained 3-5kg,PCOS,PCOS,True
+42,0,4,4.3,1.9,3,9.5,6,3,58,Absent,Heavy,Moderate,No Acne,Moderate,Frequent Swings,High,High,No,No,No,Normal,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+31,0,2,4.1,1.9,0,13.3,4,3,68,Absent,Spotting,Severe,Severe,Moderate,Frequent Swings,Low,Medium,No,No,No,Hypothyroid,Gained 5+kg,PCOS,PCOS,True
+60,34,5,7.9,3.0,1,4.5,7,6,41,Irregular,Heavy,Mild,Mild,Mild,Stable,Medium,Medium,No,No,No,Normal,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+38,0,3,6.9,3.1,5,9.7,5,5,55,Absent,Spotting,Mild,Mild,Mild,Mild Swings,Medium,Low,No,No,No,Normal,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+31,52,6,8.4,2.0,6,4.8,4,4,64,Irregular,Spotting,Severe,Severe,Mild,Mild Swings,Medium,Medium,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOS,PCOS,True
+28,37,7,4.2,1.2,0,12.9,6,4,54,Regular,Normal,Moderate,Mild,Mild,Severe Swings,Low,Low,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+44,30,5,5.9,3.1,6,9.2,5,4,59,Regular,Spotting,Moderate,No Acne,Mild,Severe Swings,Medium,Medium,No,No,No,Normal,No Change,Ovarian Cysts,Ovarian Cysts,True
+29,29,7,5.0,2.0,3,12.9,9,9,19,Regular,Heavy,Moderate,No Acne,No Acne,Stable,High,High,No,No,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+37,26,7,4.5,1.5,0,11.8,10,9,14,Regular,Heavy,Moderate,No Acne,No Acne,Frequent Swings,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+42,26,6,9.0,1.7,4,11.1,6,5,50,Regular,Spotting,Moderate,No Acne,Mild,Mild Swings,Medium,Low,Yes,No,No,Normal,Lost 1-3kg,Endometriosis,Ovarian Cysts,False
+47,58,5,5.5,1.2,5,4.0,7,6,41,Regular,Spotting,Mild,No Acne,Mild,Severe Swings,Medium,High,No,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+46,26,9,7.0,2.6,1,8.7,7,4,49,Regular,Heavy,Moderate,Mild,No Acne,Severe Swings,Low,Low,No,No,Yes,Hypothyroid,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+42,23,9,7.2,2.7,1,6.3,7,6,41,Irregular,Heavy,Moderate,Mild,No Acne,Mild Swings,Medium,High,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+35,49,3,8.9,3.0,4,3.9,4,5,60,Irregular,Light,Severe,Moderate,Moderate,Severe Swings,Low,Low,Yes,No,No,Hypothyroid,No Change,PCOS,Irregular Menstrual Disorder,False
+50,21,8,7.8,2.7,6,2.8,7,5,45,Regular,Normal,Severe,No Acne,Mild,Mild Swings,Low,High,Yes,No,No,Normal,No Change,Uterine Fibroids,Uterine Fibroids,True
+35,27,7,5.0,3.2,6,2.7,10,8,18,Irregular,Spotting,Mild,No Acne,No Acne,Mild Swings,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+56,41,5,5.0,2.4,5,2.8,9,6,31,Irregular,Normal,Severe,No Acne,Mild,Severe Swings,High,High,Yes,No,No,Normal,Gained 5+kg,Uterine Prolapse,Uterine Prolapse,True
+30,42,4,7.4,1.5,5,4.5,2,1,86,Irregular,Normal,Moderate,Mild,No Hair Loss,Mild Swings,Low,Low,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOD,PCOD,True
+18,25,5,7.8,1.1,6,2.5,4,3,68,Regular,Spotting,Severe,No Acne,Mild,Frequent Swings,Low,Low,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Cervical Issues,False
+48,23,8,8.4,2.0,4,12.8,6,3,58,Irregular,Normal,Mild,No Acne,No Acne,Stable,Medium,Medium,No,No,Yes,Normal,Gained 5+kg,Uterine Fibroids,Uterine Fibroids,True
+38,30,6,4.9,1.5,6,6.6,8,1,56,Irregular,Heavy,Moderate,Mild,Mild,Stable,High,High,No,No,No,Hypothyroid,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+35,24,3,4.4,1.1,4,9.4,5,4,59,Irregular,Normal,Severe,No Acne,Mild,Severe Swings,Medium,Medium,Yes,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Cervical Issues,False
+27,24,8,6.4,2.9,6,4.3,9,10,15,Regular,Spotting,Moderate,Mild,Mild,Severe Swings,High,High,Yes,No,No,Normal,No Change,Endometriosis,Endometriosis,True
+29,0,3,6.4,2.2,4,10.1,7,6,41,Absent,Spotting,Moderate,Severe,Mild,Frequent Swings,High,High,Yes,No,Yes,Normal,No Change,PCOS,PCOS,True
+38,30,9,7.2,3.4,5,12.0,7,4,49,Irregular,Heavy,Severe,Mild,Mild,Mild Swings,Medium,High,No,No,No,Hypothyroid,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+39,32,4,4.9,2.6,2,8.6,5,1,71,Regular,Heavy,Severe,No Acne,Mild,Severe Swings,Medium,High,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+40,51,5,5.7,1.6,5,7.7,4,6,56,Regular,Heavy,Severe,No Acne,Mild,Severe Swings,Low,Medium,No,No,No,Normal,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+40,58,3,4.0,1.6,0,8.3,4,4,64,Irregular,Light,Moderate,Moderate,No Hair Loss,Severe Swings,Low,Low,Yes,No,Yes,Hypothyroid,Gained 5+kg,PCOD,PCOD,True
+43,33,7,8.2,3.4,2,7.6,5,2,67,Irregular,Normal,Severe,Mild,No Acne,Frequent Swings,Low,Medium,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+21,0,6,5.9,2.4,6,10.2,4,5,60,Absent,Spotting,Severe,Severe,Mild,Severe Swings,Medium,High,No,No,No,Hypothyroid,Gained 3-5kg,PCOS,PCOS,True
+26,0,2,7.3,1.7,5,6.8,5,4,59,Absent,Light,Mild,Mild,Moderate,Mild Swings,Medium,Low,Yes,No,No,Hyperthyroid,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+41,27,9,4.1,2.0,5,4.3,10,9,14,Irregular,Heavy,Moderate,Mild,No Acne,Stable,High,High,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+44,38,4,8.7,3.2,3,5.7,4,3,68,Regular,Normal,Mild,Mild,Mild,Frequent Swings,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+23,54,3,6.3,2.3,4,9.0,1,3,83,Irregular,Normal,Severe,Moderate,No Hair Loss,Mild Swings,Medium,Medium,No,No,No,Hypothyroid,Gained 1-3kg,PCOD,PCOD,True
+27,60,3,5.5,2.5,1,9.9,8,6,36,Irregular,Light,Mild,Severe,Moderate,Frequent Swings,High,High,Yes,No,No,Normal,Gained 5+kg,PCOS,PCOS,True
+33,21,9,4.2,2.3,2,5.4,9,6,31,Irregular,Spotting,Moderate,Mild,No Acne,Frequent Swings,High,High,Yes,Yes,No,Normal,Lost 3-5kg,Endometriosis,Endometriosis,True
+16,51,2,6.2,3.0,5,10.0,2,4,74,Irregular,Light,Mild,Mild,No Hair Loss,Frequent Swings,Low,Low,No,No,No,Hypothyroid,Gained 5+kg,PCOD,PCOD,True
+41,39,6,8.5,2.3,1,9.0,7,3,53,Irregular,Normal,Severe,No Acne,No Acne,Severe Swings,Medium,High,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+44,31,8,4.9,1.1,5,9.4,7,5,45,Regular,Spotting,Mild,Mild,Mild,Frequent Swings,High,High,No,No,No,Normal,No Change,Ovarian Cysts,Ovarian Cysts,True
+36,48,1,6.0,1.7,0,6.5,3,4,69,Irregular,Normal,Severe,Moderate,No Hair Loss,Frequent Swings,Low,Low,No,No,No,Normal,Gained 1-3kg,PCOD,PCOD,True
+23,22,3,5.1,1.2,5,4.8,6,2,62,Regular,Heavy,Mild,No Acne,Mild,Stable,Medium,High,No,No,No,Normal,No Change,Ovarian Cysts,Cervical Issues,False
+32,48,1,5.6,1.4,2,9.2,3,1,81,Irregular,Normal,Mild,Moderate,No Hair Loss,Severe Swings,Low,Medium,No,No,No,Normal,Gained 3-5kg,PCOD,PCOD,True
+27,34,9,8.4,1.9,5,3.3,6,3,58,Regular,Heavy,Mild,Mild,No Acne,Stable,Medium,High,No,No,No,Hypothyroid,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+35,54,2,6.7,2.3,2,11.8,6,3,58,Irregular,Spotting,Moderate,Mild,Mild,Mild Swings,Medium,Low,No,No,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+44,0,1,4.0,3.3,2,4.6,6,6,46,Absent,Light,Mild,No Acne,Mild,Severe Swings,Medium,High,No,No,Yes,Hyperthyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+25,32,5,8.8,2.3,3,5.9,2,2,82,Irregular,Normal,Moderate,Mild,No Hair Loss,Mild Swings,Low,Medium,No,No,Yes,Hypothyroid,No Change,PCOD,PCOD,True
+36,22,7,4.2,2.4,2,10.6,7,5,45,Regular,Spotting,Mild,No Acne,No Acne,Frequent Swings,High,High,No,No,No,Normal,No Change,Ovarian Cysts,Ovarian Cysts,True
+20,23,6,7.6,2.4,5,4.6,3,4,69,Irregular,Heavy,Moderate,No Acne,Mild,Stable,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+35,21,7,4.8,1.2,6,7.4,9,3,43,Irregular,Normal,Severe,No Acne,Mild,Severe Swings,High,High,No,No,No,Normal,Gained 1-3kg,Uterine Fibroids,Ovarian Cysts,False
+25,23,8,6.3,1.9,5,9.2,8,10,20,Regular,Spotting,Moderate,Mild,Mild,Severe Swings,High,High,No,Yes,No,Normal,No Change,Endometriosis,Endometriosis,True
+44,23,8,6.4,2.7,2,4.5,6,5,50,Irregular,Heavy,Moderate,No Acne,No Acne,Severe Swings,Medium,Medium,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Uterine Fibroids,False
+33,39,2,8.4,2.2,0,7.4,4,3,68,Irregular,Light,Moderate,Mild,No Hair Loss,Mild Swings,Low,High,Yes,No,No,Normal,No Change,PCOD,PCOD,True
+18,32,10,6.5,3.0,4,10.5,8,7,32,Irregular,Heavy,Severe,No Acne,No Acne,Frequent Swings,Medium,Low,Yes,Yes,No,Normal,No Change,Endometriosis,Endometriosis,True
+46,23,3,5.5,1.9,2,9.0,4,1,76,Irregular,Spotting,Moderate,Mild,No Acne,Mild Swings,Low,Medium,No,Yes,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+42,32,9,8.1,2.7,2,10.6,10,9,14,Regular,Heavy,Severe,No Acne,Mild,Frequent Swings,Medium,Low,No,No,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+65,0,7,5.8,2.9,3,4.1,3,6,61,Absent,Normal,Severe,No Acne,Mild,Stable,Medium,Medium,No,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+46,32,6,6.2,3.2,4,8.4,6,3,58,Irregular,Normal,Severe,Mild,Mild,Mild Swings,Low,Medium,No,No,Yes,Hypothyroid,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+34,0,4,8.0,2.0,5,2.4,7,4,49,Absent,Spotting,Severe,Severe,Mild,Stable,Medium,High,Yes,No,No,Normal,Gained 5+kg,PCOS,PCOS,True
+27,33,8,4.8,1.4,1,11.5,10,7,22,Regular,Spotting,Moderate,Mild,No Acne,Mild Swings,High,High,No,No,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+33,22,8,6.0,2.7,2,13.1,10,7,22,Irregular,Spotting,Mild,Mild,Mild,Mild Swings,High,High,No,No,No,Normal,No Change,Adenomyosis,Adenomyosis,True
+34,23,5,5.6,1.4,6,8.8,7,1,61,Regular,Normal,Severe,No Acne,No Acne,Severe Swings,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+34,23,9,4.7,1.5,0,8.8,10,10,10,Irregular,Spotting,Mild,No Acne,No Acne,Stable,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+29,25,4,5.9,2.1,3,3.6,7,1,61,Regular,Spotting,Mild,No Acne,Mild,Stable,Medium,Medium,Yes,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+32,38,5,6.3,3.3,0,8.7,5,1,71,Regular,Spotting,Severe,Mild,Mild,Mild Swings,Low,Low,No,No,No,Normal,No Change,Ovarian Cysts,Ovarian Cysts,True
+30,27,7,8.4,2.6,1,5.2,7,8,33,Irregular,Spotting,Mild,Mild,No Acne,Frequent Swings,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+26,27,5,5.8,1.8,0,9.5,6,1,66,Irregular,Normal,Moderate,Mild,No Acne,Mild Swings,High,High,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+17,43,2,7.6,2.3,2,6.1,4,2,72,Irregular,Normal,Mild,Mild,No Hair Loss,Severe Swings,Low,Medium,Yes,No,No,Normal,No Change,PCOD,PCOD,True
+26,0,4,5.4,3.1,2,10.3,8,4,44,Absent,Light,Mild,Moderate,Moderate,Stable,High,High,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOS,PCOS,True
+37,31,5,4.4,2.7,0,8.4,3,1,81,Irregular,Normal,Severe,Mild,No Hair Loss,Stable,Low,Medium,Yes,No,No,Hypothyroid,Gained 5+kg,PCOD,PCOD,True
+26,48,1,7.2,2.2,6,3.4,2,3,78,Irregular,Normal,Mild,Mild,No Hair Loss,Severe Swings,Low,Medium,Yes,Yes,No,Hypothyroid,No Change,PCOD,PCOD,True
+17,51,2,5.3,1.4,5,6.7,5,3,63,Irregular,Light,Mild,Moderate,Moderate,Severe Swings,Medium,Medium,No,No,No,Normal,Gained 1-3kg,PCOS,Irregular Menstrual Disorder,False
+15,0,2,5.7,1.1,4,6.6,7,5,45,Absent,Spotting,Severe,Mild,Moderate,Mild Swings,High,High,No,No,No,Hypothyroid,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+39,81,3,4.1,1.5,5,4.5,5,6,51,Irregular,Light,Mild,No Acne,Mild,Frequent Swings,High,High,No,No,Yes,Hyperthyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+68,0,4,4.7,2.9,3,10.5,4,3,68,Absent,Normal,Severe,Mild,Moderate,Mild Swings,Medium,Medium,No,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+39,37,6,5.2,2.3,5,3.6,6,4,54,Regular,Heavy,Mild,Mild,No Acne,Severe Swings,Low,High,No,No,No,Normal,No Change,Ovarian Cysts,Ovarian Cysts,True
+54,23,5,5.7,3.1,5,11.4,5,4,59,Regular,Normal,Severe,No Acne,No Acne,Frequent Swings,Medium,Medium,No,Yes,Yes,Normal,No Change,Cervical Issues,Cervical Issues,True
+41,25,7,4.2,1.0,6,9.9,8,8,28,Regular,Heavy,Mild,Mild,Mild,Severe Swings,High,High,Yes,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+30,27,8,6.5,2.7,5,9.3,10,9,14,Irregular,Spotting,Mild,Mild,Mild,Mild Swings,High,High,No,No,No,Normal,Lost 1-3kg,Endometriosis,Adenomyosis,False
+21,27,9,5.3,3.0,5,10.1,8,6,36,Irregular,Heavy,Mild,No Acne,Mild,Mild Swings,High,High,No,No,No,Normal,Lost 3-5kg,Endometriosis,Endometriosis,True
+42,32,9,8.9,3.1,4,8.4,9,7,27,Irregular,Spotting,Moderate,No Acne,Mild,Frequent Swings,Medium,Low,Yes,Yes,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+31,23,6,5.0,3.1,6,8.6,8,3,48,Regular,Heavy,Mild,No Acne,No Acne,Severe Swings,High,High,No,No,Yes,Hypothyroid,No Change,Uterine Fibroids,Uterine Fibroids,True
+44,0,5,6.8,3.3,5,11.0,4,4,64,Absent,Spotting,Moderate,No Acne,Moderate,Severe Swings,Medium,High,No,No,No,Hyperthyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+62,24,4,6.0,2.1,5,6.2,6,3,58,Regular,Normal,Moderate,Mild,Mild,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Uterine Prolapse,Uterine Prolapse,True
+26,22,6,7.9,3.4,6,7.4,3,4,69,Regular,Heavy,Mild,Mild,No Acne,Frequent Swings,Medium,High,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Cervical Issues,False
+31,22,10,4.3,1.1,4,8.1,8,7,32,Irregular,Spotting,Moderate,No Acne,Mild,Mild Swings,High,High,No,No,No,Normal,No Change,Endometriosis,Adenomyosis,False
+27,0,2,5.9,3.0,2,7.3,5,6,51,Absent,Light,Severe,Mild,Mild,Severe Swings,High,High,No,No,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+32,21,6,8.5,3.2,0,10.8,7,9,29,Regular,Heavy,Mild,No Acne,No Acne,Frequent Swings,Medium,Low,No,No,Yes,Normal,No Change,Adenomyosis,Adenomyosis,True
+31,27,8,4.8,2.6,5,6.3,9,9,19,Irregular,Spotting,Severe,Mild,Mild,Stable,High,High,Yes,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+50,0,6,6.2,3.3,1,9.5,4,3,68,Absent,Heavy,Severe,Mild,Moderate,Severe Swings,Medium,Low,No,No,No,Hypothyroid,Gained 1-3kg,Uterine Prolapse,Uterine Prolapse,True
+64,28,5,8.0,3.5,2,12.1,7,4,49,Irregular,Spotting,Mild,No Acne,Mild,Stable,Medium,Low,No,No,No,Hypothyroid,Gained 5+kg,Uterine Prolapse,Uterine Prolapse,True
+33,0,1,4.4,2.0,5,3.9,7,5,45,Absent,Light,Mild,No Acne,Mild,Stable,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+43,0,5,5.3,2.1,4,4.5,3,5,65,Absent,Spotting,Moderate,Moderate,Mild,Stable,Medium,High,No,No,No,Normal,Gained 1-3kg,PCOS,Uterine Prolapse,False
+41,38,1,4.1,2.4,4,9.3,4,2,72,Irregular,Light,Severe,Moderate,No Hair Loss,Stable,Medium,Medium,Yes,No,No,Hypothyroid,Gained 1-3kg,PCOD,PCOD,True
+27,23,9,6.5,1.7,4,11.1,8,8,28,Regular,Spotting,Severe,No Acne,No Acne,Frequent Swings,Medium,Medium,No,No,No,Normal,No Change,Endometriosis,Endometriosis,True
+34,0,4,7.9,1.0,3,6.6,4,5,60,Absent,Light,Severe,Severe,Mild,Mild Swings,Medium,Medium,No,No,No,Hypothyroid,Gained 1-3kg,PCOS,PCOS,True
+51,40,6,5.9,2.2,6,8.2,4,5,60,Irregular,Spotting,Moderate,Mild,Moderate,Severe Swings,Medium,High,No,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+29,63,4,7.0,2.6,1,6.9,4,3,68,Irregular,Spotting,Moderate,Moderate,Moderate,Frequent Swings,Medium,Low,Yes,No,No,Normal,No Change,PCOS,Irregular Menstrual Disorder,False
+38,29,8,4.9,3.1,4,12.1,10,9,14,Regular,Heavy,Mild,No Acne,No Acne,Stable,High,High,No,Yes,No,Normal,Lost 1-3kg,Endometriosis,Adenomyosis,False
+37,26,7,5.0,2.5,3,12.0,6,4,54,Irregular,Heavy,Mild,Mild,No Acne,Frequent Swings,High,High,No,No,Yes,Normal,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+24,21,9,5.7,2.3,2,11.1,6,7,42,Irregular,Spotting,Moderate,No Acne,Mild,Severe Swings,Medium,Medium,No,Yes,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+25,0,2,6.2,1.1,1,10.9,7,6,41,Absent,Light,Moderate,Mild,Mild,Severe Swings,Medium,Medium,No,No,No,Normal,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+37,24,10,5.5,2.2,6,11.8,9,7,27,Regular,Heavy,Moderate,Mild,No Acne,Mild Swings,Medium,High,No,No,Yes,Normal,No Change,Adenomyosis,Adenomyosis,True
+34,0,5,4.6,3.4,3,6.4,5,4,59,Absent,Spotting,Severe,Moderate,Mild,Frequent Swings,High,High,No,No,No,Hypothyroid,Gained 3-5kg,PCOS,Uterine Prolapse,False
+40,24,7,4.8,1.4,6,6.9,7,4,49,Regular,Heavy,Moderate,Mild,Mild,Mild Swings,High,High,Yes,No,No,Normal,No Change,Uterine Fibroids,Ovarian Cysts,False
+59,59,6,4.2,3.2,6,7.1,3,5,65,Regular,Spotting,Mild,Mild,Mild,Stable,Low,High,No,No,No,Hypothyroid,Gained 5+kg,Uterine Prolapse,Uterine Prolapse,True
+50,26,3,5.1,3.0,3,11.4,5,1,71,Regular,Spotting,Moderate,No Acne,Mild,Frequent Swings,Low,Low,No,No,No,Normal,No Change,Cervical Issues,Cervical Issues,True
+35,22,5,8.2,3.2,4,8.6,3,2,77,Irregular,Spotting,Severe,Mild,Mild,Frequent Swings,Low,High,Yes,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Cervical Issues,False
+28,34,9,5.4,2.1,4,10.9,4,5,60,Regular,Spotting,Severe,No Acne,No Acne,Severe Swings,Medium,Medium,Yes,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+22,32,6,7.6,3.0,2,6.8,3,2,77,Irregular,Spotting,Moderate,No Acne,No Acne,Severe Swings,Low,Medium,No,No,Yes,Normal,No Change,Cervical Issues,Ovarian Cysts,False
+24,31,3,4.4,2.7,1,10.0,9,3,43,Irregular,Spotting,Severe,Mild,Mild,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Cervical Issues,True
+29,0,5,5.1,3.4,3,5.9,7,4,49,Absent,Spotting,Moderate,Moderate,Mild,Frequent Swings,Low,High,No,No,No,Hypothyroid,Gained 5+kg,PCOS,PCOS,True
+29,50,5,8.8,2.4,4,11.6,2,1,86,Irregular,Normal,Severe,Mild,No Hair Loss,Severe Swings,Low,High,No,No,Yes,Normal,No Change,PCOD,PCOD,True
+35,31,6,5.9,3.3,6,9.8,9,5,35,Irregular,Heavy,Mild,No Acne,Mild,Severe Swings,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+44,29,4,4.1,3.5,0,5.7,4,1,76,Regular,Heavy,Mild,No Acne,Mild,Stable,Low,High,No,No,Yes,Hypothyroid,Gained 5+kg,Uterine Fibroids,Uterine Fibroids,True
+24,30,4,5.2,2.3,4,9.2,5,4,59,Regular,Normal,Moderate,No Acne,Mild,Mild Swings,Medium,High,Yes,No,No,Normal,No Change,Cervical Issues,Cervical Issues,True
+35,30,6,7.1,1.5,1,7.5,5,3,63,Irregular,Spotting,Mild,Mild,No Acne,Frequent Swings,Medium,Low,No,No,No,Normal,No Change,Cervical Issues,Ovarian Cysts,False
+51,32,4,5.2,1.8,5,2.9,8,2,52,Regular,Heavy,Moderate,Mild,Mild,Mild Swings,High,High,No,Yes,Yes,Normal,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+31,32,2,6.3,2.7,0,13.9,2,2,82,Irregular,Normal,Severe,Moderate,No Hair Loss,Mild Swings,Medium,High,Yes,No,No,Hypothyroid,Gained 5+kg,PCOD,PCOD,True
+24,0,5,5.9,3.3,2,7.4,6,3,58,Absent,Light,Mild,Moderate,Mild,Frequent Swings,Medium,High,Yes,No,No,Hypothyroid,Gained 3-5kg,PCOS,PCOS,True
+68,0,4,4.2,1.7,1,10.4,7,3,53,Absent,Heavy,Moderate,Mild,Mild,Mild Swings,Medium,Medium,No,No,No,Normal,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+16,61,4,6.5,2.6,4,6.9,5,5,55,Irregular,Light,Moderate,No Acne,Mild,Mild Swings,Medium,Low,No,No,No,Normal,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+27,26,10,5.9,2.2,5,10.0,10,6,26,Regular,Heavy,Severe,No Acne,No Acne,Severe Swings,High,High,No,Yes,No,Normal,No Change,Endometriosis,Endometriosis,True
+36,24,9,4.6,2.3,5,4.7,9,8,23,Regular,Spotting,Mild,Mild,No Acne,Frequent Swings,Medium,Low,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+19,58,2,5.0,2.6,6,11.0,5,3,63,Irregular,Spotting,Moderate,Mild,Mild,Frequent Swings,High,High,No,No,No,Hypothyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+36,27,5,4.6,3.5,1,10.6,7,4,49,Regular,Heavy,Mild,Mild,No Acne,Mild Swings,High,High,No,No,Yes,Normal,Lost 1-3kg,Ovarian Cysts,Uterine Fibroids,False
+38,24,8,5.5,2.3,5,4.1,10,8,18,Regular,Heavy,Mild,No Acne,Mild,Frequent Swings,High,High,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+42,21,6,5.5,1.9,2,6.2,7,3,53,Irregular,Heavy,Mild,Mild,Mild,Mild Swings,Medium,High,No,Yes,Yes,Hypothyroid,No Change,Uterine Fibroids,Uterine Fibroids,True
+48,0,5,6.5,1.9,0,8.6,3,4,69,Absent,Spotting,Moderate,Mild,Moderate,Severe Swings,Low,High,No,No,No,Normal,Gained 1-3kg,Uterine Prolapse,Uterine Prolapse,True
+59,23,4,8.6,2.0,6,2.8,4,6,56,Regular,Spotting,Mild,Mild,Moderate,Mild Swings,Medium,Low,No,No,Yes,Hypothyroid,No Change,Uterine Prolapse,Uterine Prolapse,True
+31,0,6,8.0,3.4,0,5.5,6,5,50,Absent,Light,Mild,Moderate,Moderate,Mild Swings,Low,Low,Yes,No,No,Normal,Gained 1-3kg,PCOS,PCOS,True
+38,77,2,8.7,2.3,5,11.5,4,3,68,Irregular,Light,Moderate,Mild,Mild,Severe Swings,Medium,High,No,No,No,Hyperthyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+29,53,4,4.4,1.9,5,8.9,4,4,64,Irregular,Spotting,Mild,Severe,Moderate,Frequent Swings,Medium,Low,No,No,No,Hypothyroid,Gained 3-5kg,PCOS,PCOS,True
+22,21,2,6.2,2.7,0,7.2,6,4,54,Irregular,Spotting,Mild,No Acne,Mild,Mild Swings,Medium,Low,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+33,33,4,6.4,3.0,0,9.4,1,2,87,Irregular,Light,Severe,Moderate,No Hair Loss,Stable,Low,Low,No,No,No,Normal,Gained 3-5kg,PCOD,PCOD,True
+29,59,4,4.5,1.2,5,11.0,7,6,41,Irregular,Light,Severe,Mild,Moderate,Severe Swings,High,High,No,No,No,Hyperthyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+44,55,2,5.2,3.2,4,12.3,7,3,53,Irregular,Light,Mild,No Acne,Moderate,Severe Swings,High,High,No,No,No,Hyperthyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+35,37,4,7.2,1.4,3,10.5,7,5,45,Irregular,Spotting,Moderate,Moderate,Moderate,Frequent Swings,Low,Low,No,No,No,Hypothyroid,Gained 1-3kg,PCOS,Irregular Menstrual Disorder,False
+43,22,7,5.6,1.8,4,12.1,6,5,50,Irregular,Spotting,Severe,Mild,Mild,Severe Swings,Medium,Low,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Ovarian Cysts,False
+64,0,7,7.3,2.5,1,7.0,4,4,64,Absent,Normal,Moderate,No Acne,Moderate,Mild Swings,Medium,Low,No,No,No,Hypothyroid,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+42,27,4,8.4,3.3,6,7.3,5,2,67,Irregular,Normal,Severe,Mild,No Acne,Frequent Swings,Low,High,Yes,Yes,No,Normal,No Change,Cervical Issues,Cervical Issues,True
+23,25,8,7.7,2.2,0,11.5,10,7,22,Regular,Spotting,Severe,No Acne,Mild,Stable,Medium,Low,No,No,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+34,26,6,5.3,3.2,4,6.5,8,6,36,Irregular,Heavy,Moderate,Mild,Mild,Stable,High,High,Yes,No,No,Normal,No Change,Adenomyosis,Adenomyosis,True
+16,30,3,7.5,3.1,6,7.7,2,3,78,Irregular,Light,Moderate,Moderate,No Hair Loss,Mild Swings,Low,High,No,No,No,Hypothyroid,Gained 3-5kg,PCOD,PCOD,True
+36,25,7,6.1,2.2,0,4.7,10,6,26,Irregular,Spotting,Mild,Mild,Mild,Frequent Swings,High,High,Yes,Yes,No,Normal,Lost 3-5kg,Endometriosis,Endometriosis,True
+31,30,5,8.4,3.1,6,2.6,5,1,71,Regular,Spotting,Mild,No Acne,Mild,Stable,Medium,Low,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Cervical Issues,False
+48,33,7,8.8,3.3,5,4.7,7,4,49,Regular,Heavy,Mild,No Acne,Mild,Frequent Swings,Low,High,Yes,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+62,0,6,5.7,3.3,2,3.5,6,3,58,Absent,Heavy,Moderate,Mild,Moderate,Frequent Swings,Medium,Low,No,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+30,28,5,5.8,1.8,5,11.2,9,4,39,Regular,Heavy,Severe,Mild,No Acne,Stable,High,High,No,No,No,Hypothyroid,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+16,83,2,4.5,2.5,5,2.1,5,5,55,Irregular,Spotting,Severe,No Acne,Mild,Frequent Swings,High,High,No,No,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+32,39,5,4.0,2.3,0,6.0,3,3,73,Irregular,Light,Mild,Mild,No Hair Loss,Stable,Low,Medium,No,No,No,Normal,Gained 5+kg,PCOD,PCOD,True
+30,0,3,5.3,3.0,1,11.3,4,3,68,Absent,Light,Severe,No Acne,Moderate,Mild Swings,Medium,Medium,No,Yes,No,Hyperthyroid,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+32,0,4,4.1,2.5,5,5.3,9,6,31,Absent,Spotting,Moderate,Severe,Moderate,Mild Swings,High,High,No,No,No,Normal,No Change,PCOS,PCOS,True
+31,74,3,7.8,2.8,0,5.8,5,4,59,Irregular,Light,Moderate,No Acne,Mild,Severe Swings,Low,Medium,No,Yes,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+39,24,7,4.3,1.0,4,5.4,7,4,49,Regular,Heavy,Moderate,No Acne,No Acne,Frequent Swings,Medium,Low,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Ovarian Cysts,False
+25,23,5,4.4,1.5,5,4.7,4,4,64,Irregular,Spotting,Severe,No Acne,No Acne,Stable,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Cervical Issues,False
+60,0,7,8.5,2.8,6,3.0,6,6,46,Absent,Normal,Severe,No Acne,Mild,Mild Swings,Low,Low,No,No,No,Hypothyroid,Gained 3-5kg,Uterine Prolapse,Uterine Prolapse,True
+36,21,2,4.4,3.2,1,12.2,5,4,59,Irregular,Normal,Severe,Mild,Mild,Severe Swings,Medium,High,No,No,No,Normal,No Change,Cervical Issues,Cervical Issues,True
+40,37,4,6.6,1.8,5,10.1,4,2,72,Regular,Normal,Mild,Mild,No Acne,Stable,Medium,Medium,No,No,No,Normal,Gained 1-3kg,Ovarian Cysts,Ovarian Cysts,True
+46,28,10,4.6,1.6,3,8.2,10,6,26,Regular,Spotting,Severe,No Acne,No Acne,Mild Swings,High,High,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+60,48,5,6.5,3.1,1,7.0,3,3,73,Regular,Spotting,Mild,Mild,Moderate,Severe Swings,Low,Medium,No,No,No,Normal,No Change,Uterine Prolapse,Uterine Prolapse,True
+30,24,5,4.6,2.4,1,5.1,6,3,58,Regular,Heavy,Moderate,Mild,No Acne,Frequent Swings,Low,Medium,No,No,No,Hypothyroid,No Change,Uterine Fibroids,Uterine Fibroids,True
+36,26,8,4.5,3.2,1,8.3,7,5,45,Irregular,Spotting,Mild,No Acne,No Acne,Severe Swings,Medium,Low,No,No,No,Normal,No Change,Ovarian Cysts,Ovarian Cysts,True
+19,34,8,4.1,1.1,0,7.1,10,10,10,Regular,Heavy,Mild,Mild,No Acne,Frequent Swings,High,High,No,Yes,No,Normal,No Change,Endometriosis,Endometriosis,True
+23,31,8,6.4,2.8,0,5.0,8,7,32,Regular,Heavy,Severe,Mild,Mild,Severe Swings,Medium,Medium,No,No,No,Normal,No Change,Endometriosis,Endometriosis,True
+34,34,6,5.2,1.7,5,4.3,5,1,71,Irregular,Normal,Moderate,Mild,No Acne,Severe Swings,Medium,Medium,No,No,Yes,Hypothyroid,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+34,0,3,6.7,3.0,3,6.1,7,5,45,Absent,Light,Moderate,Mild,Moderate,Frequent Swings,Medium,Low,No,No,No,Hypothyroid,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+32,21,5,5.0,3.0,5,9.8,9,3,43,Regular,Heavy,Mild,Mild,No Acne,Mild Swings,High,High,No,No,Yes,Normal,No Change,Cervical Issues,Uterine Fibroids,False
+35,25,3,6.9,2.4,4,10.2,4,4,64,Irregular,Heavy,Moderate,No Acne,No Acne,Stable,Medium,High,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+43,24,8,4.9,1.9,6,8.3,10,7,22,Regular,Spotting,Moderate,Mild,Mild,Severe Swings,High,High,No,No,No,Normal,Lost 1-3kg,Adenomyosis,Adenomyosis,True
+51,25,5,5.3,3.5,0,13.5,6,1,66,Regular,Heavy,Severe,No Acne,No Acne,Stable,Low,Low,No,No,No,Normal,Lost 1-3kg,Cervical Issues,Cervical Issues,True
+36,22,5,8.5,2.0,1,5.4,3,2,77,Irregular,Heavy,Mild,No Acne,No Acne,Mild Swings,Medium,Low,No,No,No,Normal,No Change,Cervical Issues,Ovarian Cysts,False
+43,0,6,5.8,2.1,3,13.3,7,6,41,Absent,Heavy,Moderate,Mild,Moderate,Mild Swings,Medium,High,No,No,No,Hypothyroid,Gained 5+kg,Uterine Prolapse,Uterine Prolapse,True
+24,34,4,4.3,2.2,6,7.1,6,3,58,Regular,Spotting,Mild,Mild,No Acne,Severe Swings,High,High,No,No,No,Normal,No Change,Ovarian Cysts,Ovarian Cysts,True
+37,0,4,5.0,2.7,3,9.8,3,3,73,Absent,Spotting,Severe,Mild,Mild,Severe Swings,Medium,High,No,No,No,Normal,Lost 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+32,23,8,5.1,1.6,5,2.0,5,2,67,Irregular,Heavy,Moderate,No Acne,No Acne,Mild Swings,High,High,No,No,Yes,Normal,No Change,Ovarian Cysts,Uterine Fibroids,False
+35,25,8,5.7,2.6,1,8.8,8,3,48,Irregular,Normal,Severe,Mild,No Acne,Mild Swings,High,High,No,No,No,Normal,No Change,Uterine Fibroids,Ovarian Cysts,False
+38,32,4,7.6,2.4,3,6.4,5,3,63,Regular,Spotting,Severe,No Acne,Mild,Frequent Swings,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Ovarian Cysts,Cervical Issues,False
+38,21,8,7.7,1.4,1,12.0,9,9,19,Irregular,Spotting,Moderate,No Acne,Mild,Severe Swings,Medium,Medium,No,No,No,Normal,Gained 1-3kg,Adenomyosis,Adenomyosis,True
+28,70,4,4.4,3.3,4,11.1,5,6,51,Irregular,Spotting,Mild,Mild,Mild,Stable,High,High,No,No,No,Hyperthyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+25,33,3,4.4,1.6,4,11.7,7,3,53,Regular,Spotting,Moderate,No Acne,No Acne,Stable,High,High,No,No,No,Normal,Gained 1-3kg,Cervical Issues,Cervical Issues,True
+27,25,8,6.3,2.4,5,3.0,9,10,15,Irregular,Heavy,Severe,No Acne,No Acne,Frequent Swings,Medium,Medium,No,Yes,No,Normal,No Change,Endometriosis,Endometriosis,True
+42,0,4,8.1,2.1,1,8.6,6,4,54,Absent,Spotting,Severe,Mild,Mild,Stable,Medium,Low,No,Yes,Yes,Normal,Gained 1-3kg,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True
+33,30,9,5.9,2.5,4,8.1,7,9,29,Regular,Spotting,Mild,Mild,No Acne,Stable,Medium,Medium,No,No,No,Normal,Lost 1-3kg,Endometriosis,Endometriosis,True
+23,0,7,4.4,1.9,4,7.1,4,4,64,Absent,Spotting,Mild,Severe,Moderate,Frequent Swings,Medium,High,No,No,No,Hypothyroid,No Change,PCOS,PCOS,True
+42,26,8,5.8,1.5,0,9.3,4,3,68,Irregular,Heavy,Severe,Mild,Mild,Stable,Low,Medium,No,No,No,Normal,Gained 3-5kg,Uterine Fibroids,Uterine Fibroids,True
+33,34,7,7.6,1.8,0,5.3,3,2,77,Regular,Normal,Moderate,No Acne,Mild,Severe Swings,Low,Medium,No,No,Yes,Hypothyroid,Gained 1-3kg,Uterine Fibroids,Uterine Fibroids,True
+16,76,4,5.7,2.9,1,8.5,3,4,69,Irregular,Spotting,Severe,Severe,Moderate,Severe Swings,Medium,High,Yes,No,No,Hypothyroid,Gained 5+kg,PCOS,PCOS,True
+20,44,5,5.3,2.1,1,12.6,2,4,74,Irregular,Light,Severe,Mild,No Hair Loss,Mild Swings,Low,Low,No,No,No,Normal,No Change,PCOD,PCOD,True
+32,0,4,7.3,2.2,6,6.3,5,3,63,Absent,Light,Severe,No Acne,Moderate,Mild Swings,Low,Medium,No,No,No,Hypothyroid,No Change,Irregular Menstrual Disorder,Irregular Menstrual Disorder,True

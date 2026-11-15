@@ -47,9 +47,8 @@ function Assessment() {
 
   const [step, setStep] = useState(1);
 
-  const nextStep = () => {
-    setStep(step + 1);
-  };
+  const nextStep = () => setStep((currentStep) => Math.min(currentStep + 1, 7));
+  const previousStep = () => setStep((currentStep) => Math.max(currentStep - 1, 1));
 
   return (
     <div
@@ -66,6 +65,7 @@ function Assessment() {
           formData={formData}
           setFormData={setFormData}
           nextStep={nextStep}
+          previousStep={previousStep}
         />
       )}
       {step === 2 && (
@@ -73,6 +73,7 @@ function Assessment() {
           formData={formData}
           setFormData={setFormData}
           nextStep={nextStep}
+          previousStep={previousStep}
         />
       )}
       {step === 3 && (
@@ -80,6 +81,7 @@ function Assessment() {
     formData={formData}
     setFormData={setFormData}
     nextStep={nextStep}
+    previousStep={previousStep}
   />
 )}
 {step === 4 && (
@@ -87,6 +89,7 @@ function Assessment() {
     formData={formData}
     setFormData={setFormData}
     nextStep={nextStep}
+  previousStep={previousStep}
   />
 )}
 {step === 5 && (
@@ -94,6 +97,7 @@ function Assessment() {
     formData={formData}
     setFormData={setFormData}
     nextStep={nextStep}
+  previousStep={previousStep}
   />
 )}
 {step === 6 && (
@@ -101,11 +105,13 @@ function Assessment() {
     formData={formData}
     setFormData={setFormData}
     nextStep={nextStep}
+  previousStep={previousStep}
   />
 )}
 {step === 7 && (
   <Step7Review
     formData={formData}
+  onEdit={() => setStep(1)}
   />
 )}
     </div>

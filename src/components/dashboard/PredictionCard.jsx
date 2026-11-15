@@ -8,12 +8,18 @@ import {
   FaShoePrints,
   FaLightbulb
 } from "react-icons/fa";
+import { getMudraImage, reflexologyImage } from "../../data/recommendationImages";
+import FoodGallery from "../FoodGallery";
 
 function PredictionCard({ prediction }) {
 
   if (!prediction) {
     return null;
   }
+
+  const mudraName = prediction.recommended_mudra || "Gyan Mudra";
+  const reflexologyPoint = prediction.recommended_reflexology_point || "Solar plexus point";
+  const mudraImage = getMudraImage(mudraName);
 
   return (
 
@@ -114,14 +120,7 @@ function PredictionCard({ prediction }) {
           Recommended Foods
         </h2>
 
-        <p
-          style={{
-            marginTop: "15px",
-            lineHeight: "28px"
-          }}
-        >
-          {prediction.recommended_foods}
-        </p>
+        <FoodGallery foods={prediction.recommended_foods} />
 
       </div>
 
@@ -142,14 +141,7 @@ function PredictionCard({ prediction }) {
           Foods To Avoid
         </h2>
 
-        <p
-          style={{
-            marginTop: "15px",
-            lineHeight: "28px"
-          }}
-        >
-          {prediction.foods_to_avoid}
-        </p>
+        <FoodGallery foods={prediction.foods_to_avoid} avoid />
 
       </div>
 
@@ -159,18 +151,29 @@ function PredictionCard({ prediction }) {
         style={{
           background: "#ffffff",
           borderRadius: "20px",
-          padding: "25px",
+          padding: "0 0 25px",
+          overflow: "hidden",
           boxShadow: "0 8px 25px rgba(0,0,0,.08)"
         }}
       >
 
-        <h2 style={{ color: "#8b5cf6" }}>
+        <img src={mudraImage.src} alt={`${mudraName} hand gesture`} loading="lazy" style={{ width: "100%", height: "150px", objectFit: "cover", display: "block" }} />
+
+        <div style={{ padding: "0 25px" }}>
+
+        <h2 style={{ color: "#8b5cf6", marginTop: "20px" }}>
           <FaHands />
           {" "}
           Recommended Mudra
         </h2>
 
-        <h3>{prediction.recommended_mudra}</h3>
+        <h3>{mudraName}</h3>
+
+        <small style={{ color: "#64748b" }}>Image: <a href={mudraImage.source} target="_blank" rel="noreferrer">{mudraImage.credit}</a></small>
+
+        <p style={{ lineHeight: 1.65, color: "#475569" }}>
+          A mudra is a hand gesture used in some breathing and meditation practices. Your recommended mudra is <strong>{mudraName}</strong>. The exact finger position depends on the mudra, so follow a trusted visual guide or ask a qualified practitioner to show you. Keep your hands comfortable and breathe naturally.
+        </p>
 
         <p>
 
@@ -190,6 +193,8 @@ function PredictionCard({ prediction }) {
 
         </p>
 
+        </div>
+
       </div>
 
       {/* REFLEXOLOGY */}
@@ -198,12 +203,17 @@ function PredictionCard({ prediction }) {
         style={{
           background: "#ffffff",
           borderRadius: "20px",
-          padding: "25px",
+          padding: "0 0 25px",
+          overflow: "hidden",
           boxShadow: "0 8px 25px rgba(0,0,0,.08)"
         }}
       >
 
-        <h2 style={{ color: "#0ea5e9" }}>
+        <img src={reflexologyImage.src} alt="A practitioner gently pressing the sole of a foot" loading="lazy" style={{ width: "100%", height: "150px", objectFit: "cover", display: "block" }} />
+
+        <div style={{ padding: "0 25px" }}>
+
+        <h2 style={{ color: "#0ea5e9", marginTop: "20px" }}>
           <FaShoePrints />
           {" "}
           Reflexology
@@ -211,9 +221,15 @@ function PredictionCard({ prediction }) {
 
         <h3>
 
-          {prediction.recommended_reflexology_point}
+          {reflexologyPoint}
 
         </h3>
+
+        <small style={{ color: "#64748b" }}>Image: <a href={reflexologyImage.source} target="_blank" rel="noreferrer">{reflexologyImage.credit}</a></small>
+
+        <p style={{ lineHeight: 1.65, color: "#475569" }}>
+          Reflexology means using gentle pressure on specific areas of the feet. Sit comfortably and use your thumb to make small, comfortable circles on the recommended spot. It should feel soothing, never painful; stop if you feel discomfort.
+        </p>
 
         <p>
 
@@ -223,6 +239,8 @@ function PredictionCard({ prediction }) {
           {" "}minutes
 
         </p>
+
+        </div>
 
       </div>
 

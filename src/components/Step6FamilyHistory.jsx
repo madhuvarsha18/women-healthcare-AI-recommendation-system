@@ -1,12 +1,9 @@
-import { useNavigate } from "react-router-dom";
-
 function Step6FamilyHistory({
   formData,
   setFormData,
   nextStep,
+  previousStep,
 }) {
-
-  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData({
@@ -221,7 +218,7 @@ function Step6FamilyHistory({
         <div className="button-group">
           <button
             className="back-btn"
-            onClick={() => navigate("/step5")}
+            onClick={previousStep}
           >
             ← Back
           </button>

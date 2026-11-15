@@ -1,43 +1,45 @@
-const Assessment =
-require("../models/Assessment");
+const Assessment = require("../models/Assessment");
+const { isDbConnected, getMemoryStore } = require("../config/db");
 
-const latestAssessment =
-async(req,res)=>{
+const getUserAssessments = (userId) => {
+  if (isDbConnected()) {
+    return Assessment.find({ user: userId }).sort({ createdAt: -1 });
+  }
 
-const assessment =
-await Assessment.findOne({
-
-user:req.user.id
-
-}).sort({
-
-createdAt:-1
-
-});
-
-res.json(assessment);
-
+  return getMemoryStore()
+    .assessments.filter(
+      (item) => String(item.user) === String(userId)
+    )
+    .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 };
 
-const history =
-async(req,res)=>{
+const latestAssessment = async (req, res) => {
+  try {
+    if (isDbConnected()) {
+      const assessment = await Assessment.findOne({ user: req.user.id }).sort({
+        createdAt: -1,
+      });
 
-const assessments =
-await Assessment.find({
+      return res.json(assessment);
+    }
 
-user:req.user.id
-
-}).sort({
-
-createdAt:-1
-
-});
-
-res.json(assessments);
-
+    const assessments = getUserAssessments(req.user.id);
+    return res.json(assessments[0] || null);
+  } catch (error) {
+    res.status(500).json({ message: "Failed to fetch assessment" });
+  }
 };
 
-module.exports={
-latestAssessment,
-history
+const history = async (req, res) => {
+  try {
+    const assessments = await getUserAssessments(req.user.id);
+    return res.json(assessments);
+  } catch (error) {
+    res.status(500).json({ message: "Failed to fetch assessment history" });
+  }
+};
+
+module.exports = {
+  latestAssessment,
+  history,
 };

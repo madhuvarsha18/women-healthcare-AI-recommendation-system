@@ -1,10 +1,9 @@
-import { useNavigate } from "react-router-dom";
 function Step2Cycle({
   formData,
   setFormData,
   nextStep,
+  previousStep,
 }) {
-  const navigate = useNavigate();
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -208,11 +207,7 @@ function Step2Cycle({
         <div className="button-group">
           <button
             className="back-btn"
-            onClick={() => {
-              navigate("/step1personal");
-              window.history.back();
-
-            }}
+            onClick={previousStep}
           >
             ← Back
           </button>

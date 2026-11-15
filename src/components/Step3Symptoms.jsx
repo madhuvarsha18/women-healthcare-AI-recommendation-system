@@ -1,12 +1,9 @@
-import { useNavigate } from "react-router-dom";
-
 function Step3Symptoms({
   formData,
   setFormData,
   nextStep,
+  previousStep,
 }) {
-
-  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData({
@@ -210,10 +207,7 @@ function Step3Symptoms({
 
           <button
             className="back-btn"
-            onClick={() => {
-              navigate("/step2cycle");
-              
-            }}
+            onClick={previousStep}
           >
             ← Back
           </button>

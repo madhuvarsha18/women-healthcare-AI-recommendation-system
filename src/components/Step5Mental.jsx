@@ -1,12 +1,9 @@
-import { useNavigate } from "react-router-dom";
-
 function Step5Mental({
   formData,
   setFormData,
   nextStep,
+  previousStep,
 }) {
-
-  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData({
@@ -232,7 +229,7 @@ function Step5Mental({
 
           <button
             className="back-btn"
-            onClick={() => navigate("/step4")}
+            onClick={previousStep}
           >
             ← Back
           </button>
